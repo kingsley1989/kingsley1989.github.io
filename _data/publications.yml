@@ -1,0 +1,481 @@
+# publications.yml lists both publication types and publications
+
+# Types of publication (in order of listing on page)
+publication_types:
+  - type_id: pre-pub
+    pretty: Pre-publication
+  - type_id: peer-reviewed-paper
+    pretty: Peer-reviewed papers
+  - type_id: peer-reviewed-abstract
+    pretty: Peer-reviewed abstracts
+    overview: |
+      These are short (usually 2-page) summaries of research recently published or
+      to be published elsewhere.
+  - type_id: book-chapter
+    pretty: Book chapters
+
+# Listing of publications
+publications:
+
+  - citation: |
+        Austin J. Ferguson, Jose G. Hernandez, Daniel Junghans, Alexander Lalejini, Emily Dolson, Charles Ofria (2020)
+        [Characterizing the Effects of Random Subsampling on Lexicase Selection.](https://link.springer.com/chapter/10.1007/978-3-030-39958-0_1)
+        In: Banzhaf W., Goodman E., Sheneman L., Trujillo L., Worzel B. (eds)
+        Genetic Programming Theory and Practice XVII. Genetic and Evolutionary Computation.
+        Springer, Cham
+    year: 2020
+    venue: book
+    type: book-chapter
+    github_repository_link: https://github.com/FergusonAJ/gptp-2019-subsampled-lexicase
+    bibtex_id: Ferguson-GPTP-2020
+    bibtex: |
+      ```bibtex
+      @Inbook{Ferguson-GPTP-2020,
+        author="Ferguson, Austin J.
+        and Hernandez, Jose Guadalupe
+        and Junghans, Daniel
+        and Lalejini, Alexander
+        and Dolson, Emily
+        and Ofria, Charles",
+        editor="Banzhaf, Wolfgang
+        and Goodman, Erik
+        and Sheneman, Leigh
+        and Trujillo, Leonardo
+        and Worzel, Bill",
+        title="Characterizing the Effects of Random Subsampling on Lexicase Selection",
+        bookTitle="Genetic Programming Theory and Practice XVII",
+        year="2020",
+        publisher="Springer International Publishing",
+        address="Cham",
+        pages="1--23",
+        abstract="Lexicase selection is a proven parent-selection algorithm designed for genetic programming problems, especially for uncompromising test-based problems where many distinct test cases must all be passed. Previous work has shown that random subsampling techniques can improve lexicase selection's problem-solving success; here, we investigate why. We test two types of random subsampling lexicase variants: down-sampled lexicase, which uses a random subset of all training cases each generation; and cohort lexicase, which collects candidate solutions and training cases into small groups for testing, reshuffling those groups each generation. We show that both of these subsampling lexicase variants improve problem-solving success by facilitating deeper evolutionary searches; that is, they allow populations to evolve for more generations (relative to standard lexicase) given a fixed number of test-case evaluations. We also demonstrate that the subsampled variants require less computational effort to find solutions, even though subsampling hinders lexicase's ability to preserve specialists. Contrary to our expectations, we did not find any evidence of systematic loss of phenotypic diversity maintenance due to subsampling, though we did find evidence that cohort lexicase is significantly better at preserving phylogenetic diversity than down-sampled lexicase.",
+        isbn="978-3-030-39958-0",
+        doi="10.1007/978-3-030-39958-0_1",
+        url="https://doi.org/10.1007/978-3-030-39958-0_1"
+      }
+      ```
+
+  - citation: |
+      Alexander Lalejini, Emily Dolson, Clifford Bohm, Austin J. Ferguson, David P. Parsons, Penelope Faulkner Rainford, Paul Richmond, and Charles Ofria (2019).
+      [Data Standards for Artificial Life Software.](https://www.mitpressjournals.org/doi/abs/10.1162/isal_a_00213)
+      The 2019 Conference on Artificial Life, 507–514. [https://doi.org/10.1162/isal_a_00213](https://doi.org/10.1162/isal_a_00213)
+    year: 2019
+    venue: conference
+    type: peer-reviewed-paper
+    github_repository_link: https://github.com/alife-data-standards/alife-data-standards
+    presentation_link: https://docs.google.com/presentation/d/19fQMsfnYh154G5ZdcJfsjcap6MKjG57p-VncMsjwbQY/edit?usp=sharing
+    pdf: /pubs/Lalejini_et_al_2019_Data_Standards_For_Artificial_Life_Software.pdf
+    bibtex_id: Lalejini2019-DataStandards
+    bibtex: |
+      ```bibtex
+        @article{Lalejini2019-DataStandards,
+          author = {Lalejini, Alexander and Dolson, Emily and Bohm, Clifford and Ferguson, Austin J. and Parsons, David P. and Rainford, Penelope Faulkner and Richmond, Paul and Ofria, Charles},
+          title = {Data Standards for Artificial Life Software},
+          journal = {The 2019 Conference on Artificial Life},
+          volume = {},
+          number = {31},
+          pages = {507-514},
+          year = {2019},
+          doi = {10.1162/isal\_a\_00213},
+          URL = { https://www.mitpressjournals.org/doi/abs/10.1162/isal_a_00213 },
+          eprint = { https://www.mitpressjournals.org/doi/pdf/10.1162/isal_a_00213 }
+        }
+      ```
+
+  - citation: |
+      Jose Guadalupe Hernandez, Alexander Lalejini, Emily Dolson, and Charles Ofria. (2019).
+      [Random subsampling improves performance in lexicase selection.](https://dl.acm.org/citation.cfm?id=3326900)
+      In Proceedings of the Genetic and Evolutionary Computation Conference Companion (GECCO '19), Manuel López-Ibáñez (Ed.).
+      ACM, New York, NY, USA, 2028-2031. DOI: [https://doi.org/10.1145/3319619.3326900](https://doi.org/10.1145/3319619.3326900)
+    year: 2019
+    venue: workshop
+    type: peer-reviewed-paper
+    github_repository_link: https://github.com/amlalejini/GECCO-2019-cohort-lexicase
+    presentation_link: https://docs.google.com/presentation/d/1E4rjdK9v5MEKPKhKlosPb-M_ldYQP1Q_VEz2LLOOjdc/edit?usp=sharing
+    pdf: /pubs/Hernandez_et_al_2019_Random_Subsampling_Improves_Performance_in_Lexicase_Selection.pdf
+    bibtex_id: Hernandez2019-SubsamplingLexicase
+    bibtex: |
+      ```bibtex
+      @inproceedings{Hernandez2019-SubsamplingLexicase,
+        author = {Hernandez, Jose Guadalupe and Lalejini, Alexander and Dolson, Emily and Ofria, Charles},
+        title = {Random Subsampling Improves Performance in Lexicase Selection},
+        booktitle = {Proceedings of the Genetic and Evolutionary Computation Conference Companion},
+        series = {GECCO '19},
+        year = {2019},
+        isbn = {978-1-4503-6748-6},
+        location = {Prague, Czech Republic},
+        pages = {2028--2031},
+        numpages = {4},
+        url = {http://doi.acm.org/10.1145/3319619.3326900},
+        doi = {10.1145/3319619.3326900},
+        acmid = {3326900},
+        publisher = {ACM},
+        address = {New York, NY, USA},
+        keywords = {cohort lexicase, cohorts, down-sampled lexicase, genetic programming, lexicase selection, parent selection, program synthesis},
+      }
+      ```
+
+  - citation: |
+      Emily Dolson, Alexander Lalejini, Steven Jorgensen, and Charles Ofria. (2020).
+      [Interpretting the Tape of Life: Ancestry-based metrics and visualizations](https://doi.org/10.1162/artl_a_00313)
+      provide insights and intuition about evolutionary dynamics. Artificial Life.
+      MIT Press. DOI: [10.1162/artl_a_00313](https://doi.org/10.1162/artl_a_00313)
+    year: 2020
+    venue: journal
+    type: peer-reviewed-paper
+    github_repository_link: https://github.com/emilydolson/interpreting_the_tape_of_life
+    bibtex_id: dolson-2020-interpretting-the-tape-of-life
+    bibtex: |
+      ```
+      @article{dolson-2020-interpretting-the-tape-of-life,
+        author = {Dolson, Emily and Lalejini, Alexander and Jorgensen, Steven and Ofria, Charles},
+        title = {Interpreting the Tape of Life: Ancestry-Based Analyses Provide Insights and Intuition about Evolutionary Dynamics},
+        journal = {Artificial Life},
+        volume = {26},
+        number = {1},
+        pages = {58-79},
+        year = {2020},
+        doi = {10.1162/artl\_a\_00313},
+        note ={PMID: 32027535},
+        URL = { https://doi.org/10.1162/artl_a_00313 },
+        eprint = { https://doi.org/10.1162/artl_a_00313 }
+      }
+      ```
+
+  - citation: |
+      Alexander Lalejini and Charles Ofria. (2019).
+      [Tag-accessed memory for genetic programming.](https://dl.acm.org/citation.cfm?doid=3319619.3321892)
+      In Proceedings of the Genetic and Evolutionary Computation Conference Companion (GECCO '19), Manuel López-Ibáñez (Ed.).
+      ACM, New York, NY, USA, 346-347.
+      DOI: [https://doi.org/10.1145/3319619.3321892](https://doi.org/10.1145/3319619.3321892)
+    year: 2019
+    venue: conference
+    type: peer-reviewed-abstract
+    github_repository_link: https://github.com/amlalejini/GECCO-2019-tag-accessed-memory
+    presentation_link: https://docs.google.com/presentation/d/1j4IusMVaNVOEcxFkIcveNyB_sfaFowQUFcLqLloCa5M/edit?usp=sharing
+    pdf: /pubs/Lalejini_Ofria_2019_Tag-accessed_Memory.pdf
+    bibtex_id: Lalejini2019-TagMem
+    bibtex: |
+      ```bibtex
+      @inproceedings{Lalejini2019-TagMem,
+        author = {Lalejini, Alexander and Ofria, Charles},
+        title = {Tag-accessed Memory for Genetic Programming},
+        booktitle = {Proceedings of the Genetic and Evolutionary Computation Conference Companion},
+        series = {GECCO '19},
+        year = {2019},
+        isbn = {978-1-4503-6748-6},
+        location = {Prague, Czech Republic},
+        pages = {346--347},
+        numpages = {2},
+        url = {http://doi.acm.org/10.1145/3319619.3321892},
+        doi = {10.1145/3319619.3321892},
+        acmid = {3321892},
+        publisher = {ACM},
+        address = {New York, NY, USA},
+        keywords = {genetic programming, linear genetic programming, memory access, tag-based referencing, tags},
+      }
+      ```
+
+  - citation: |
+      Clifford Bohm, Alexander Lalejini, Jory Schossau, and Charles Ofria. (2019).
+      [MABE 2.0: an introduction to MABE and a road map for the future of MABE development.](https://dl.acm.org/citation.cfm?id=3326825)
+      In Proceedings of the Genetic and Evolutionary Computation Conference Companion (GECCO '19), Manuel López-Ibáñez (Ed.).
+      ACM, New York, NY, USA, 1349-1356. DOI: [https://doi.org/10.1145/3319619.3326825](https://doi.org/10.1145/3319619.3326825)
+    year: 2019
+    venue: workshop
+    type: peer-reviewed-paper
+    pdf: /pubs/Bohm_et_al_2019_MABE2.pdf
+    bibtex_id: Bohm2019-MABE2
+    bibtex: |
+      ```bibtex
+      @inproceedings{Bohm2019-MABE2,
+        author = {Bohm, Clifford and Lalejini, Alexander and Schossau, Jory and Ofria, Charles},
+        title = {MABE 2.0: An Introduction to MABE and a Road Map for the Future of MABE Development},
+        booktitle = {Proceedings of the Genetic and Evolutionary Computation Conference Companion},
+        series = {GECCO '19},
+        year = {2019},
+        isbn = {978-1-4503-6748-6},
+        location = {Prague, Czech Republic},
+        pages = {1349--1356},
+        numpages = {8},
+        url = {http://doi.acm.org/10.1145/3319619.3326825},
+        doi = {10.1145/3319619.3326825},
+        acmid = {3326825},
+        publisher = {ACM},
+        address = {New York, NY, USA},
+        keywords = {MABE, artificial life, empirical library, evolution, evolutionary computation, modular agent-based evolver, open source, software development},
+      }
+      ```
+
+  - citation: |
+      Alexander Lalejini and Charles Ofria. (2018).
+      [Evolving reactive agents with SignalGP](https://doi.org/10.1162/isal_a_00069).
+      In Proceedings of the 2018 Conference on Artificial Life (ALIFE).
+      Edited by Takashi Ikegami, Nathaniel Virgo, Olaf Witkowski, Mizuki Oka, Reiji Suzuki, and Hiroyuki Iizuka.
+      pp. 368-369. DOI: [10.1162/isal_a_00069](https://doi.org/10.1162/isal_a_00069). MIT Press.
+    year: 2018
+    venue: conference
+    type: peer-reviewed-abstract
+    presentation_link: https://docs.google.com/presentation/d/1iMp2ndNikf_VMVkdxW3WUCtuaE2mmGr16p8Z-RixenQ/edit?usp=sharing
+    github_repository_link: https://github.com/amlalejini/GECCO-2018-Evolving-Event-driven-Programs-with-SignalGP
+    pdf: /pubs/evolving-reactive-agents-with-signalgp.pdf
+    bibtex_id: Lalejini2018-ALIFE
+    bibtex: |
+      ```bibtex
+      @inproceedings{Lalejini2018-ALIFE,
+        address = {Cambridge, MA},
+        author = {Lalejini, Alexander and Ofria, Charles},
+        booktitle = {The 2018 Conference on Artificial Life},
+        doi = {10.1162/isal_a_00069},
+        pages = {368--369},
+        publisher = {MIT Press},
+        title = {{Evolving Reactive Agents with SignalGP}},
+        url = {https://www.mitpressjournals.org/doi/abs/10.1162/isal{\_}a{\_}00069},
+        year = {2018}
+      }
+      ```
+
+  - citation: |
+      Emily Dolson, Alexander Lalejini, Steven Jorgensen, and Charles Ofria. (2018).
+      [Quantifying the tape of life: Ancestry-based metrics provide insights and intuition
+      about evolutionary dynamics.](https://doi.org/10.1162/isal_a_00020)
+      In Proceedings of the 2018 Conference on Artificial Life (ALIFE).
+      Edited by Takashi Ikegami, Nathaniel Virgo, Olaf Witkowski, Mizuki Oka, Reiji Suzuki, and Hiroyuki Iizuka.
+      pp. 75-82. DOI: [10.1162/isal_a_00020](https://doi.org/10.1162/isal_a_00020). MIT Press.
+    year: 2018
+    venue: conference
+    type: peer-reviewed-paper
+    badges: "International Society for Artificial Life Outstanding Student Publication Award"
+    presentation_link: https://docs.google.com/presentation/d/1dV044J3JzfLrdgfwWS_4Bq8-3UHOqvQQgmqEZEkrcCc/edit?usp=sharing
+    github_repository_link: https://github.com/stevenjson/ALife2018-Lineage
+    pdf: /pubs/quantifying-the-tape-of-life.pdf
+    bibtex_id: Dolson2018-ALIFE
+    bibtex: |
+      ```bibtex
+      @inproceedings{Dolson2018-ALIFE,
+        address = {Cambridge, MA},
+        author = {Dolson, Emily and Lalejini, Alexander and Jorgensen, Steven and Ofria, Charles},
+        booktitle = {The 2018 Conference on Artificial Life},
+        doi = {10.1162/isal_a_00020},
+        pages = {75--82},
+        publisher = {MIT Press},
+        title = {{Quantifying the Tape of Life: Ancestry-based Metrics Provide Insights and Intuition about Evolutionary Dynamics}},
+        url = {https://www.mitpressjournals.org/doi/abs/10.1162/isal{\_}a{\_}00020},
+        year = {2018}
+      }
+      ```
+
+  - citation: |
+      Alexander Lalejini and Charles Ofria. (2018).
+      [Evolving event-driven programs with SignalGP](https://doi.org/10.1145/3205455.3205523).
+      In Proceedings of the 2018 Genetic and Evolutionary Computation Conference (GECCO).
+      pp. 1135-1142.  DOI: [10.1145/3205455.3205523](https://doi.org/10.1145/3205455.3205523). ACM.
+    year: 2018
+    venue: "conference"
+    type: peer-reviewed-paper
+    presentation_link: "https://docs.google.com/presentation/d/1YKn9Hg7GNAsAEHNcHUKnWXq0HZD7k6zsM8irkIX-mlw/edit?usp=sharing"
+    github_repository_link: https://github.com/amlalejini/GECCO-2018-Evolving-Event-driven-Programs-with-SignalGP
+    pdf: /pubs/evolving-event-driven-programs-with-signalgp.pdf
+    bibtex_id: Lalejini2018-GECCO
+    bibtex: |
+      ```bibtex
+      @inproceedings{Lalejini2018-GECCO,
+        abstract = {We present SignalGP, a new genetic programming (GP) technique designed to incorporate the event-driven programming paradigm into computational evolution's toolbox. Event-driven programming is a software design philosophy that simplifies the development of reactive programs by automatically triggering program modules (event-handlers) in response to external events, such as signals from the environment or messages from other programs. SignalGP incorporates these concepts by extending existing tag-based referencing techniques into an event-driven context. Both events and functions are labeled with evolvable tags; when an event occurs, the function with the closest matching tag is triggered. In this work, we apply SignalGP in the context of linear GP. We demonstrate the value of the event-driven paradigm using two distinct test problems (an environment coordination problem and a distributed leader election problem) by comparing SignalGP to variants that are otherwise identical, but must actively use sensors to process events or messages. In each of these problems, rapid interaction with the environment or other agents is critical for maximizing fitness. We also discuss ways in which SignalGP can be generalized beyond our linear GP implementation.},
+        address = {New York, New York, USA},
+        archivePrefix = {arXiv},
+        arxivId = {1804.05445},
+        author = {Lalejini, Alexander and Ofria, Charles},
+        booktitle = {Proceedings of the Genetic and Evolutionary Computation Conference on - GECCO '18},
+        doi = {10.1145/3205455.3205523},
+        eprint = {1804.05445},
+        isbn = {9781450356183},
+        keywords = {event-driven computation,event-driven programming,genetic programming,linear genetic programming,signalgp,tags},
+        pages = {1135--1142},
+        publisher = {ACM Press},
+        title = {{Evolving event-driven programs with SignalGP}},
+        url = {http://arxiv.org/abs/1804.05445{\%}0Ahttp://dx.doi.org/10.1145/3205455.3205523 http://dl.acm.org/citation.cfm?doid=3205455.3205523},
+        year = {2018}
+      }
+      ```
+
+  - citation: |
+      Alexander Lalejini, Michael J. Wiser, and Charles Ofria. (2017).
+      [Gene duplications drive the evolution of complex traits and regulation](https://doi.org/10.7551/ecal_a_045).
+      In Proceedings of the 14th European Conference on Artificial Life (ECAL) 2017.
+      Edited by Carole Knibbe, Guillaume Beslon, David Parsons, Dusan Misevic,
+      Jonathan Rouzaud-Cornabas, Nicolas Bredèche, Salima Hassas, Olivier Simonin,
+      and Hédi Soula. Vol 14. pp. 257-264.
+      DOI: [10.7551/ecal_a_045](https://doi.org/10.7551/ecal_a_045). MIT Press.
+    link: https://www.mitpressjournals.org/doi/abs/10.1162/isal_a_045
+    year: 2017
+    venue: "conference"
+    type: peer-reviewed-paper
+    presentation_link: https://docs.google.com/presentation/d/1by_lcyOZ2872BoSard0-b9LsejGxly9lxOobDiU0zy8/edit?usp=sharing
+    pdf: /pubs/gene-duplications-drive-the-evolution-of-complex-traits-and-regulation.pdf
+    bibtex_id: Lalejini2017-ECAL
+    bibtex: |
+      ```bibtex
+      @inproceedings{Lalejini2017-ECAL,
+        address = {Cambridge, MA},
+        author = {Lalejini, Alexander and Wiser, Michael J. and Ofria, Charles},
+        booktitle = {Proceedings of the 14th European Conference on Artificial Life ECAL 2017},
+        doi = {10.7551/ecal_a_045},
+        isbn = {978-0-262-34633-7},
+        month = {sep},
+        number = {September},
+        pages = {257--264},
+        publisher = {MIT Press},
+        title = {{Gene duplications drive the evolution of complex traits and regulation}},
+        url = {https://www.mitpressjournals.org/doi/abs/10.1162/isal{\_}a{\_}045},
+        year = {2017}
+      }
+      ```
+
+  - citation: |
+      Alexander Lalejini and Charles Ofria. (2016). [The evolutionary origins of
+      phenotypic plasticity](https://doi.org/10.7551/978-0-262-33936-0-ch063).
+      In Artificial Life XV: Proceedings of the Fifteenth
+      International Conference on the Synthesis and Simulation of Living Systems (ALIFE).
+      Edited by Carlos Gershenson, Tom Froese, Jesus M. Siqueiros, Wendy Aguilar,
+      Eduardo J. Izquierdo and Hiroki Sayama. Vol 14. pp. 372-379.
+      DOI: [10.7551/978-0-262-33936-0-ch063](https://doi.org/10.7551/978-0-262-33936-0-ch063). MIT Press.
+    year: 2016
+    venue: "conference"
+    type: peer-reviewed-paper
+    badges: "best student paper"
+    presentation_link: https://docs.google.com/presentation/d/12AzO1cYUaEgHHlo6TdKaVV-UKG_hTCtN7vDz6waleLY/edit?usp=sharing
+    link: https://www.mitpressjournals.org/doi/abs/10.1162/978-0-262-33936-0-ch063
+    pdf: /pubs/the-evolutionary-origins-of-phenotypic-plasticity.pdf
+    bibtex_id: Lalejini2016-ALIFE
+    bibtex: |
+      ```bibtex
+      @inproceedings{Lalejini2016-ALIFE,
+        abstract = {Many effective and innovative survival mechanisms used by natural organisms rely on the capacity for phenotypic plasticity; that is, the ability of a genotype to alter how it is expressed based on the current environmental conditions. Understanding the evolution of phenotypic plasticity is an important step towards understanding the origins of many types of biological complexity, as well as to meeting challenges in evolutionary computation where dynamic solutions are required. Here, we leverage the Avida Digital Evolution Platform to experimentally explore the selective pressures and evolutionary pathways that lead to phenotypic plasticity. We present evolved lineages wherein unconditional traits tend to evolve first; next, imprecise forms of phenotypic plasticity often ap-pear before optimal forms finally evolve. We visualize the phenotypic states traversed by evolved lineages across environments with differing rates of mutations and environmental change. We see that under all conditions, populations can fail to evolve phenotypic plasticity, instead relying on mutation-based solutions.},
+        address = {Cambridge, MA},
+        author = {Lalejini, Alexander and Ofria, Charles},
+        booktitle = {Proceedings of the Artificial Life Conference 2016},
+        doi = {10.7551/978-0-262-33936-0-ch063},
+        isbn = {978-0-262-33936-0},
+        pages = {372--379},
+        publisher = {MIT Press},
+        title = {{The Evolutionary Origins of Phenotypic Plasticity}},
+        url = {https://www.mitpressjournals.org/doi/abs/10.1162/978-0-262-33936-0-ch063},
+        year = {2016}
+      }
+      ```
+
+  - citation: |
+      Christopher R. Hudson, Alexander Lalejini, Brandon Odom, Daniel W. Carruth, Cindy L. Bethel,
+      Phillip J. Durst, and Christopher Goodin. (2015).
+      ANVEL-ROS: The integration of the robot operating system with a high-fidelity simulator.
+      In Proceedings of the 2015 Ground Vehicle Systems Engineering and Technology Symposium (GVSETS).
+      p. 378.
+    year: 2015
+    venue: conference
+    type: peer-reviewed-paper
+    pdf: /pubs/ANVEL-ROS-integration.pdf
+    bibtex_id: Hudson2015-GVSETS
+    bibtex: |
+      ```bibtex
+      @inproceedings{Hudson2015-GVSETS,
+        author = {Hudson, Christopher R and Lalejini, Alexander and Odom, Brandon and Carruth, Daniel W and Bethel, Cindy L and Durst, Phillip J and Goodin, Christopher},
+        booktitle = {2015 Ground Vehicle Systems Engineering and Technology Symposium},
+        title = {{Anvel-ROS: the Integration of the Robot Operating System With a High-Fidelity Simulator}},
+        year = {2015}
+        }
+      ```
+
+  - citation: |
+      Alexander Lalejini, Dexter Duckworth, Richard Sween, Cindy L. Bethel, and Daniel W. Carruth. (2014).
+      [Evaluation of supervisory control interfaces for mobile robot integration with tactical teams](https://doi.org/10.1109/ARSO.2014.7020971).
+      In Proceedings of 2014 IEEE Workshop on Advanced Robotics and Its Social Impacts (ARSO).
+      pp 1-6.
+      DOI: [10.1109/ARSO.2014.7020971](https://doi.org/10.1109/ARSO.2014.7020971). IEEE.
+    year: 2014
+    venue: workshop
+    type: peer-reviewed-paper
+    pdf: /pubs/evaluation-of-supervisory-control-interfaces.pdf
+    bibtex_id: Lalejini2014-ARSO
+    bibtex: |
+      ```
+      @inproceedings{Lalejini2014-ARSO,
+        abstract = {As robotic systems become more sophisticated, they are increasingly called upon to accompany humans in high-stress environments. This research was conducted to support the integration of robotic systems into tactical teams operating in challenging and stressful environments. Robotic systems used to assist tactical teams will need to support some form of autonomy; these systems must be capable of providing operators supervisory control in cases of unpredictable real-time events. An evaluation of the relative effectiveness of three different methods of supervisory control of an autonomously operated mobile robot system was conducted: (1) hand gestures using a Microsoft Kinect, (2) an interactive Android application on a hand-held mobile device, and (3) verbal commands issued through a headset. These methods of supervisory control were compared to a teleoperated robot using a gamepad controller. The results from this pilot study determined that the touchscreen device was the easiest interface to use to override the robot's next intended movement (L2(3,23)=11.413, p=.003, d=1.58) and was considered the easiest interface to use overall (L2(3,23)=8.078, p=.044, d=.93). The results also indicate that the touchscreen device provided the most enjoyable, satisfying, and engaging interface of the four user interfaces evaluated.},
+        author = {Lalejini, Alexander and Duckworth, Dexter and Sween, Richard and Bethel, Cindy L. and Carruth, Daniel},
+        booktitle = {2014 IEEE International Workshop on Advanced Robotics and its Social Impacts},
+        doi = {10.1109/ARSO.2014.7020971},
+        isbn = {978-1-4799-6968-5},
+        issn = {21627576},
+        month = {sep},
+        number = {January},
+        pages = {1--6},
+        publisher = {IEEE},
+        title = {{Evaluation of supervisory control interfaces for mobile robot integration with tactical teams}},
+        url = {http://ieeexplore.ieee.org/document/7020971/},
+        volume = {2015-Janua},
+        year = {2014}
+      }
+      ```
+
+  - citation: |
+      Emily Dolson, Alexander Lalejini, and Charles Ofria. (2019).
+      [Exploring Genetic Programming Systems with MAP-Elites](https://doi.org/10.1007/978-3-030-04735-1_1).
+      In Banzhaf W., Spector L., Sheneman L. (eds) Genetic Programming Theory and Practice XVI. Genetic and Evolutionary Computation. Springer, Cham
+    year: 2019
+    venue: book
+    type: book-chapter
+    github_repository_link: https://github.com/amlalejini/GPTP-2018-Exploring-Genetic-Programming-Systems-with-MAP-Elites
+    pdf: /pubs/Dolson_et_al_2019_Exploring_Genetic_Programming_Systems_with_MAP-Elites.pdf
+    bibtex_id: Dolson2019-GPTP
+    bibtex: |
+      ```
+      @Inbook{Dolson2019-GPTP,
+        author="Dolson, Emily
+        and Lalejini, Alexander
+        and Ofria, Charles",
+        editor="Banzhaf, Wolfgang
+        and Spector, Lee
+        and Sheneman, Leigh",
+        title="Exploring Genetic Programming Systems with MAP-Elites",
+        bookTitle="Genetic Programming Theory and Practice XVI",
+        year="2019",
+        publisher="Springer International Publishing",
+        address="Cham",
+        pages="1--16",
+        abstract="MAP-Elites is an evolutionary computation technique that has proven valuable for exploring and illuminating the genotype-phenotype space of a computational problem. In MAP-Elites, a population is structured based on phenotypic traits of prospective solutions; each cell represents a distinct combination of traits and maintains only the most fit organism found with those traits. The resulting map of trait combinations allows the user to develop a better understanding of how each trait relates to fitness and how traits interact. While MAP-Elites has not been demonstrated to be competitive for identifying the optimal Pareto front, the insights it provides do allow users to better understand the underlying problem. In particular, MAP-Elites has provided insight into the underlying structure of problem representations, such as the value of connection cost or modularity to evolving neural networks. Here, we extend the use of MAP-Elites to examine genetic programming representations, using aspects of program architecture as traits to explore. We demonstrate that MAP-Elites can generate programs with a much wider range of architectures than other evolutionary algorithms do (even those that are highly successful at maintaining diversity), which is not surprising as this is the purpose of MAP-Elites. Ultimately, we propose that MAP-Elites is a useful tool for understanding why genetic programming representations succeed or fail and we suggest that it should be used to choose selection techniques and tune parameters.",
+        isbn="978-3-030-04735-1",
+        doi="10.1007/978-3-030-04735-1_1",
+        url="https://doi.org/10.1007/978-3-030-04735-1_1"
+      }
+      ```
+
+  - citation: |
+      Alexander Lalejini and Charles Ofria (2019).
+      [What Else Is in an Evolved Name? Exploring Evolvable Specificity with SignalGP](https://doi.org/10.1007/978-3-030-04735-1_6).
+      In Banzhaf W., Spector L., Sheneman L. (eds) Genetic Programming Theory and Practice XVI. Genetic and Evolutionary Computation. Springer, Cham
+    year: 2019
+    venue: book
+    type: book-chapter
+    presentation_link: https://docs.google.com/presentation/d/1KF9iQb08CtQiWYD4py53DDJD_kjzT2U6Z3CtqfF8Bdc/edit?usp=sharing
+    github_repository_link: https://github.com/amlalejini/GPTP-2018-Exploring-Evolvable-Specificity-with-SignalGP
+    pdf: /pubs/Lalejini_Ofria_2019_What_Else_Is_in_an_Evolved_Name.pdf
+    bibtex_id: Lalejini2019-GPTP
+    bibtex: |
+      ```bibtex
+      @Inbook{Lalejini2019-GPTP,
+        author="Lalejini, Alexander
+        and Ofria, Charles",
+        editor="Banzhaf, Wolfgang
+        and Spector, Lee
+        and Sheneman, Leigh",
+        title="What Else Is in an Evolved Name? Exploring Evolvable Specificity with SignalGP",
+        bookTitle="Genetic Programming Theory and Practice XVI",
+        year="2019",
+        publisher="Springer International Publishing",
+        address="Cham",
+        pages="103--121",
+        abstract="Tags are evolvable labels that provide genetic programs a flexible mechanism for specification. Tags are used to label and refer to programmatic elements, such as functions or jump targets. However, tags differ from traditional, more rigid methods for handling labeling because they allow for inexact references; that is, a referring tag need not exactly match its referent. Here, we explore how adjusting the threshold for how what qualifies as a match affects adaptive evolution. Further, we propose broadened applications of tags in the context of a genetic programming (GP) technique called SignalGP. SignalGP gives evolution direct access to the event-driven paradigm. Program modules in SignalGP are tagged and can be triggered by signals (with matching tags) from the environment, from other agents, or due to internal regulation. Specifically, we propose to extend this tag based system to: (1) provide more fine-grained control over module execution and regulation (e.g., promotion and repression) akin to natural gene regulatory networks, (2) employ a mosaic of GP representations within a single program, and (3) facilitate major evolutionary transitions in individuality (i.e., allow hierarchical program organization to evolve de novo).",
+        isbn="978-3-030-04735-1",
+        doi="10.1007/978-3-030-04735-1_6",
+        url="https://doi.org/10.1007/978-3-030-04735-1_6"
+      }
+      ```
