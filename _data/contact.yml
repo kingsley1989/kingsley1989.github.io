@@ -1,8 +1,13 @@
 # This data file contains contact information.
 
-twitter:
-  link: https://twitter.com/amlalejini
-  username: "@amlalejini"
+#twitter:
+#  link: https://twitter.com/amlalejini
+#  username: "@amlalejini"
+
+linkedin:
+  link: https://www.linkedin.com/in/kaixun-hua-59a9391b
+  username: "Kaixun Hua"
+
 
 github:
   link: https://github.com/kingsley1989
