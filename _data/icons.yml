@@ -17,9 +17,9 @@ venue_unknown_bullet: <i class="fa-li fas fa-question"></i>
 
 contact_email_bullet: <i class="fa-li fa fa-envelope"></i>
 contact_github_bullet: <i class="fa-li fab fa-github"></i>
-contact_twitter_bullet: <i class="fa-li fab fa-twitter"></i>
-contact_address_bullet: <i class="fa-li fas fa-map-marker-alt"></i>
+#contact_twitter_bullet: <i class="fa-li fab fa-twitter"></i>
 contact_linkedin_bullet: <i class="fa-li fab fa-linkedin"></i>
+contact_address_bullet: <i class="fa-li fas fa-map-marker-alt"></i>
 
 cv_edu_icon: <i class="fas fa-graduation-cap"></i>
 cv_research_icon: <i class="fas fa-flask"></i>
