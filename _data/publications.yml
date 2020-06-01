@@ -50,7 +50,7 @@ publications:
     type: peer-reviewed-paper
     #github_repository_link: https://github.com/alife-data-standards/alife-data-standards
     #presentation_link: https://docs.google.com/presentation/d/19fQMsfnYh154G5ZdcJfsjcap6MKjG57p-VncMsjwbQY/edit?usp=sharing
-    #pdf: /pubs/Lalejini_et_al_2019_Data_Standards_For_Artificial_Life_Software.pdf
+    pdf: /pubs/sltkclst.pdf
     bibtex_id: hua2018dual
     bibtex: |
       ```bibtex
@@ -61,6 +61,39 @@ publications:
           pages={201--208},
           year={2018},
           organization={IEEE}
+        }
+      ```
+
+  - citation: |
+     Dan A. Simovici, Kaixun Hua (2019)
+     [Data ultrametricity and clusterability.](https://iopscience.iop.org/article/10.1088/1742-6596/1334/1/012002/meta) 
+     In Journal of Physics: Conference Series (Vol. 1334, No. 1, p. 012002). IOP Publishing.
+     DOI: [https://doi.org/10.1088%2F1742-6596%2F1334%2F1%2F012002](https://doi.org/10.1088%2F1742-6596%2F1334%2F1%2F012002)
+
+    year: 2019
+    venue: conference
+    type: peer-reviewed-paper
+    #github_repository_link: https://github.com/alife-data-standards/alife-data-standards
+    #presentation_link: https://docs.google.com/presentation/d/19fQMsfnYh154G5ZdcJfsjcap6MKjG57p-VncMsjwbQY/edit?usp=sharing
+    pdf: /pubs/ultraclst.pdf
+    bibtex_id: Simovici_2019
+    bibtex: |
+      ```bibtex
+        @article{Simovici_2019,
+          title = {Data ultrametricity and clusterability},
+          author = {Dan Simovici and Kaixun Hua},
+          url = {https://doi.org/10.1088/1742-6596/1334/1/012002},
+          doi = {10.1088/1742-6596/1334/1/012002},
+          journal = {Journal of Physics: Conference Series},
+          abstract = {The increasing needs of clustering massive datasets and the high cost of running clustering algorithms poses difficult problems for users. 
+          In this context it is important to determine if a data set is clusterable, that is, it may be partitioned efficiently into well-differentiated groups 
+          containing similar objects. We approach data clusterability from an ultrametric-based perspective. A novel approach to determine the ultrametricity of 
+          a dataset is proposed via a special type of matrix product, which allows us to evaluate the clusterability of the dataset. Furthermore, we show that by 
+          applying our technique to a dissimilarity space will generate the sub-dominant ultrametric of the dissimilarity.},
+          volume = {1334},
+          pages = {012002},
+          year = {2019},
+          publisher = {{IOP} Publishing}
         }
       ```
 
