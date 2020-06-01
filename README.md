@@ -8,10 +8,10 @@ You can refer to his website repository for further illustration [https://github
 
 ## License
 This site's source code is MIT Licensed, but the website content is not. 
-The following directories and their contents are copyright Alexander Lalejini:
+The following directories and their contents are copyright Kaixun Hua:
 
   - _data/
   - pubs/
   - imgs/
 
-You may not reuse anything therein without my permission.
+You can not reuse anything therein without my permission.
