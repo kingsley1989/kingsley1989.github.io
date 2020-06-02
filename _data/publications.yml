@@ -21,7 +21,7 @@ publications:
      Kaixun Hua, Dan A. Simovici (2016)
      [Long-lead term precipitation forecasting by hierarchical clustering-based bayesian structural vector autoregression.](https://ieeexplore.ieee.org/abstract/document/7479002)
      2016 IEEE 13th International Conference on Networking, Sensing, and Control (ICNSC '16), Mexico City, Mexico, pp. 1-6.
-     DOI: [http://doi.org/10.1109/ICNSC.2016.7479002](http://doi.org/10.1109/ICNSC.2016.7479002)
+     DOI: [10.1109/ICNSC.2016.7479002](http://doi.org/10.1109/ICNSC.2016.7479002)
     year: 2016
     venue: conference
     type: peer-reviewed-paper
@@ -44,7 +44,7 @@ publications:
      Kaixun Hua, Dan A. Simovici (2018)
      [Dual Criteria Determination of the Number of Clusters in Data.](https://ieeexplore.ieee.org/abstract/document/8750738)
      In 2018 20th International Symposium on Symbolic and Numeric Algorithms for Scientific Computing (SYNASC '18), Timisoara, Romania, pp. 201-208.
-     DOI: [http://doi.org/10.1109/SYNASC.2018.00040](http://doi.org/10.1109/SYNASC.2018.00040)
+     DOI: [10.1109/SYNASC.2018.00040](http://doi.org/10.1109/SYNASC.2018.00040)
     year: 2018
     venue: conference
     type: peer-reviewed-paper
@@ -68,7 +68,7 @@ publications:
      Dan A. Simovici, Kaixun Hua (2019)
      [Data ultrametricity and clusterability.](https://iopscience.iop.org/article/10.1088/1742-6596/1334/1/012002/meta) 
      In Journal of Physics: Conference Series (Vol. 1334, No. 1, p. 012002). IOP Publishing.
-     DOI: [https://doi.org/10.1088/1742-6596/1334/1/012002](https://doi.org/10.1088/1742-6596/1334/1/012002)
+     DOI: [10.1088/1742-6596/1334/1/012002](https://doi.org/10.1088/1742-6596/1334/1/012002)
 
     year: 2019
     venue: conference
@@ -94,6 +94,35 @@ publications:
           pages = {012002},
           year = {2019},
           publisher = {{IOP} Publishing}
+        }
+      ```
+
+  - citation: |
+      Ziyao Xu, Jijian Lian, Lingling Bin, Kaixun Hua, Kui Xu, Hoi Yi Chan. (2019).
+      [Water Price Prediction for Increasing Market Efficiency Using Random Forest Regression: A Case Study in the Western United States](https://www.mdpi.com/2073-4441/11/2/228)
+      Water. DOI: [10.3390/w11020228](https://doi.org/10.3390/w11020228)
+    year: 2019
+    venue: journal
+    type: peer-reviewed-paper
+    #github_repository_link: https://github.com/emilydolson/interpreting_the_tape_of_life
+    bibtex_id: w11020228
+    bibtex: |
+      ```bibtex
+        @Article{w11020228,
+          AUTHOR = {Xu, Ziyao and Lian, Jijian and Bin, Lingling and Hua, Kaixun and Xu, Kui and Chan, Hoi Yi},
+          TITLE = {Water Price Prediction for Increasing Market Efficiency Using Random Forest Regression: A Case Study in the Western United States},
+          JOURNAL = {Water},
+          VOLUME = {11},
+          YEAR = {2019},
+          NUMBER = {2},
+          ARTICLE-NUMBER = {228},
+          URL = {https://www.mdpi.com/2073-4441/11/2/228},
+          ISSN = {2073-4441},
+          ABSTRACT = {The existence of water markets establishes water prices, promoting trading of water from low- to high-valued uses. However, market participants 
+          can face uncertainty when asking and offering prices because water rights are heterogeneous, resulting in inefficiency of the market. This paper proposes three 
+          random forest regression models (RFR) to predict water price in the western United States: a full variable set model and two reduced ones with optimal numbers 
+          of variables using a backward variable elimination (BVE) approach. Transactions of 12 semiarid states, from 1987 to 2009, and a dataset containing various predictors, were assembled. Multiple replications of k-fold cross-validation were applied to assess the model performance and their generalizability was tested on unused data. The importance of price influencing factors was then analyzed based on two plausible variable importance rankings. Results show that the RFR models have good predictive power for water price. They outperform a baseline model without leading to overfitting. Also, the higher degree of accuracy of the reduced models is insignificant, reflecting the robustness of RFR to including lower informative variables. This study suggests that, due to its ability to automatically learn from and make predictions on data, RFR-based models can aid water market participants in making more efficient decisions.},
+          DOI = {10.3390/w11020228}
         }
       ```
 
@@ -166,33 +195,6 @@ publications:
   #       publisher = {ACM},
   #       address = {New York, NY, USA},
   #       keywords = {cohort lexicase, cohorts, down-sampled lexicase, genetic programming, lexicase selection, parent selection, program synthesis},
-  #     }
-  #     ```
-
-  # - citation: |
-  #     Emily Dolson, Alexander Lalejini, Steven Jorgensen, and Charles Ofria. (2020).
-  #     [Interpretting the Tape of Life: Ancestry-based metrics and visualizations](https://doi.org/10.1162/artl_a_00313)
-  #     provide insights and intuition about evolutionary dynamics. Artificial Life.
-  #     MIT Press. DOI: [10.1162/artl_a_00313](https://doi.org/10.1162/artl_a_00313)
-  #   year: 2020
-  #   venue: journal
-  #   type: peer-reviewed-paper
-  #   github_repository_link: https://github.com/emilydolson/interpreting_the_tape_of_life
-  #   bibtex_id: dolson-2020-interpretting-the-tape-of-life
-  #   bibtex: |
-  #     ```
-  #     @article{dolson-2020-interpretting-the-tape-of-life,
-  #       author = {Dolson, Emily and Lalejini, Alexander and Jorgensen, Steven and Ofria, Charles},
-  #       title = {Interpreting the Tape of Life: Ancestry-Based Analyses Provide Insights and Intuition about Evolutionary Dynamics},
-  #       journal = {Artificial Life},
-  #       volume = {26},
-  #       number = {1},
-  #       pages = {58-79},
-  #       year = {2020},
-  #       doi = {10.1162/artl\_a\_00313},
-  #       note ={PMID: 32027535},
-  #       URL = { https://doi.org/10.1162/artl_a_00313 },
-  #       eprint = { https://doi.org/10.1162/artl_a_00313 }
   #     }
   #     ```
 
