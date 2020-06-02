@@ -154,41 +154,65 @@ publications:
         }
       ```
 
+  - citation: |
+        Dan A. Simovici, Rosanne Vetro, Kaixun Hua. (2017)
+        [Ultrametricity of Dissimilarity Spaces and Its Significance for Data Mining](https://link.springer.com/chapter/10.1007/978-3-319-45763-5_8)
+        In: Guillet F., Pinaud B., Venturini G. (eds) 
+        Advances in Knowledge Discovery and Management. Studies in Computational Intelligence, vol 665. 
+        Springer, Cham. DOI: [10.1007/978-3-319-45763-5_8](https://doi.org/10.1007/978-3-319-45763-5_8)
+    year: 2017
+    venue: book
+    type: book-chapter
+    #github_repository_link: https://github.com/FergusonAJ/gptp-2019-subsampled-lexicase
+    bibtex_id: Simovici2017
+    bibtex: |
+      ```bibtex
+        @Inbook{Simovici2017,
+          author="Simovici, Dan A. and Vetro, Rosanne and Hua, Kaixun",
+          editor="Guillet, Fabrice and Pinaud, Bruno and Venturini, Gilles",
+          title="Ultrametricity of Dissimilarity Spaces and Its Significance for Data Mining",
+          bookTitle="Advances in Knowledge Discovery and Management: Volume 6",
+          year="2017",
+          publisher="Springer International Publishing",
+          address="Cham",
+          pages="141--155",
+          abstract="We introduce a measureHua, Kaixunof ultrametricitySimovici, Dan A.for dissimilarityVetro, Rosannespaces and examine transformations of dissimilarities 
+          that impact this measure. Then, we study the influence of ultrametricity on the behavior of two classes of data mining algorithms (kNN classification and PAM clustering) 
+          applied on dissimilarity spaces. We show that there is an inverse variation between ultrametricity and performance of classifiers. For clustering, increased ultrametricity 
+          generate clusterings with better separation. Lowering ultrametricity produces more compact clusters.",
+          isbn="978-3-319-45763-5",
+          doi="10.1007/978-3-319-45763-5_8",
+          url="https://doi.org/10.1007/978-3-319-45763-5_8"
+        }
+      ```
+
   # - citation: |
-  #       Austin J. Ferguson, Jose G. Hernandez, Daniel Junghans, Alexander Lalejini, Emily Dolson, Charles Ofria (2020)
-  #       [Characterizing the Effects of Random Subsampling on Lexicase Selection.](https://link.springer.com/chapter/10.1007/978-3-030-39958-0_1)
-  #       In: Banzhaf W., Goodman E., Sheneman L., Trujillo L., Worzel B. (eds)
-  #       Genetic Programming Theory and Practice XVII. Genetic and Evolutionary Computation.
-  #       Springer, Cham
-  #   year: 2020
-  #   venue: book
-  #   type: book-chapter
-  #   github_repository_link: https://github.com/FergusonAJ/gptp-2019-subsampled-lexicase
-  #   bibtex_id: Ferguson-GPTP-2020
+  #     Emily Dolson, Alexander Lalejini, Steven Jorgensen, and Charles Ofria. (2018).
+  #     [Quantifying the tape of life: Ancestry-based metrics provide insights and intuition
+  #     about evolutionary dynamics.](https://doi.org/10.1162/isal_a_00020)
+  #     In Proceedings of the 2018 Conference on Artificial Life (ALIFE).
+  #     Edited by Takashi Ikegami, Nathaniel Virgo, Olaf Witkowski, Mizuki Oka, Reiji Suzuki, and Hiroyuki Iizuka.
+  #     pp. 75-82. DOI: [10.1162/isal_a_00020](https://doi.org/10.1162/isal_a_00020). MIT Press.
+  #   year: 2018
+  #   venue: conference
+  #   type: peer-reviewed-paper
+  #   badges: "International Society for Artificial Life Outstanding Student Publication Award"
+  #   presentation_link: https://docs.google.com/presentation/d/1dV044J3JzfLrdgfwWS_4Bq8-3UHOqvQQgmqEZEkrcCc/edit?usp=sharing
+  #   github_repository_link: https://github.com/stevenjson/ALife2018-Lineage
+  #   pdf: /pubs/quantifying-the-tape-of-life.pdf
+  #   bibtex_id: Dolson2018-ALIFE
   #   bibtex: |
   #     ```bibtex
-  #     @Inbook{Ferguson-GPTP-2020,
-  #       author="Ferguson, Austin J.
-  #       and Hernandez, Jose Guadalupe
-  #       and Junghans, Daniel
-  #       and Lalejini, Alexander
-  #       and Dolson, Emily
-  #       and Ofria, Charles",
-  #       editor="Banzhaf, Wolfgang
-  #       and Goodman, Erik
-  #       and Sheneman, Leigh
-  #       and Trujillo, Leonardo
-  #       and Worzel, Bill",
-  #       title="Characterizing the Effects of Random Subsampling on Lexicase Selection",
-  #       bookTitle="Genetic Programming Theory and Practice XVII",
-  #       year="2020",
-  #       publisher="Springer International Publishing",
-  #       address="Cham",
-  #       pages="1--23",
-  #       abstract="Lexicase selection is a proven parent-selection algorithm designed for genetic programming problems, especially for uncompromising test-based problems where many distinct test cases must all be passed. Previous work has shown that random subsampling techniques can improve lexicase selection's problem-solving success; here, we investigate why. We test two types of random subsampling lexicase variants: down-sampled lexicase, which uses a random subset of all training cases each generation; and cohort lexicase, which collects candidate solutions and training cases into small groups for testing, reshuffling those groups each generation. We show that both of these subsampling lexicase variants improve problem-solving success by facilitating deeper evolutionary searches; that is, they allow populations to evolve for more generations (relative to standard lexicase) given a fixed number of test-case evaluations. We also demonstrate that the subsampled variants require less computational effort to find solutions, even though subsampling hinders lexicase's ability to preserve specialists. Contrary to our expectations, we did not find any evidence of systematic loss of phenotypic diversity maintenance due to subsampling, though we did find evidence that cohort lexicase is significantly better at preserving phylogenetic diversity than down-sampled lexicase.",
-  #       isbn="978-3-030-39958-0",
-  #       doi="10.1007/978-3-030-39958-0_1",
-  #       url="https://doi.org/10.1007/978-3-030-39958-0_1"
+  #     @inproceedings{Dolson2018-ALIFE,
+  #       address = {Cambridge, MA},
+  #       author = {Dolson, Emily and Lalejini, Alexander and Jorgensen, Steven and Ofria, Charles},
+  #       booktitle = {The 2018 Conference on Artificial Life},
+  #       doi = {10.1162/isal_a_00020},
+  #       pages = {75--82},
+  #       publisher = {MIT Press},
+  #       title = {{Quantifying the Tape of Life: Ancestry-based Metrics Provide Insights and Intuition about Evolutionary Dynamics}},
+  #       url = {https://www.mitpressjournals.org/doi/abs/10.1162/isal{\_}a{\_}00020},
+  #       year = {2018}
   #     }
   #     ```
 
@@ -280,36 +304,6 @@ publications:
   #       publisher = {MIT Press},
   #       title = {{Evolving Reactive Agents with SignalGP}},
   #       url = {https://www.mitpressjournals.org/doi/abs/10.1162/isal{\_}a{\_}00069},
-  #       year = {2018}
-  #     }
-  #     ```
-
-  # - citation: |
-  #     Emily Dolson, Alexander Lalejini, Steven Jorgensen, and Charles Ofria. (2018).
-  #     [Quantifying the tape of life: Ancestry-based metrics provide insights and intuition
-  #     about evolutionary dynamics.](https://doi.org/10.1162/isal_a_00020)
-  #     In Proceedings of the 2018 Conference on Artificial Life (ALIFE).
-  #     Edited by Takashi Ikegami, Nathaniel Virgo, Olaf Witkowski, Mizuki Oka, Reiji Suzuki, and Hiroyuki Iizuka.
-  #     pp. 75-82. DOI: [10.1162/isal_a_00020](https://doi.org/10.1162/isal_a_00020). MIT Press.
-  #   year: 2018
-  #   venue: conference
-  #   type: peer-reviewed-paper
-  #   badges: "International Society for Artificial Life Outstanding Student Publication Award"
-  #   presentation_link: https://docs.google.com/presentation/d/1dV044J3JzfLrdgfwWS_4Bq8-3UHOqvQQgmqEZEkrcCc/edit?usp=sharing
-  #   github_repository_link: https://github.com/stevenjson/ALife2018-Lineage
-  #   pdf: /pubs/quantifying-the-tape-of-life.pdf
-  #   bibtex_id: Dolson2018-ALIFE
-  #   bibtex: |
-  #     ```bibtex
-  #     @inproceedings{Dolson2018-ALIFE,
-  #       address = {Cambridge, MA},
-  #       author = {Dolson, Emily and Lalejini, Alexander and Jorgensen, Steven and Ofria, Charles},
-  #       booktitle = {The 2018 Conference on Artificial Life},
-  #       doi = {10.1162/isal_a_00020},
-  #       pages = {75--82},
-  #       publisher = {MIT Press},
-  #       title = {{Quantifying the Tape of Life: Ancestry-based Metrics Provide Insights and Intuition about Evolutionary Dynamics}},
-  #       url = {https://www.mitpressjournals.org/doi/abs/10.1162/isal{\_}a{\_}00020},
   #       year = {2018}
   #     }
   #     ```
