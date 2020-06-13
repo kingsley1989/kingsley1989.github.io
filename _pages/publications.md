@@ -7,8 +7,6 @@ jumbo_txt: |
   My newest publications could be found on my [Google Scholar page](https://scholar.google.com/citations?user=u2rFTvYAAAAJ&hl=en).
     
 overview: |
-  Besides the designing of fundimental machine learning algorithms, I also invloved in several domain projects that utilizing machine learning technologies. 
-  
   In addition to each publication's citation information, which will include links
   to a pdf version when possible, I have attached an assortment of informative icons
   (idea credit: [Emily Dolson](http://emilyldolson.com/)).
