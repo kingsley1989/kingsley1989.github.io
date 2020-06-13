@@ -16,6 +16,7 @@
     ML algorithms to have a better seasonal preiction and could also reveal the relationship and
     importance of different attributes.
 
+
 - project: Ultrametricity and Clusterability
   image: "/imgs/majortrans.svg"
   image_pos: "right"
@@ -39,8 +40,30 @@
     drawback of hierarchical clustering algorithms. 
 
     This project is 
-    
 
+
+- project: Unsupersived Model Selection on Dataset with Imbalanced clusters
+  image: "/imgs/evoplast.svg"
+  image_pos: "right" # bottom
+  description: |
+    This project is a cooperation with Antai College of Economy and Management, 
+    Shanghai Jiao Tong University.
+
+    The big spender or "Whales" is usually the main revenue of a platform. The loss
+    of such customers will significantly reduce the cash flow of host platform. The 
+
+
+- project: The Loss Prediction of Big Spender (The Whales) on Live Streaming Platform
+  image: "/imgs/evoplast.svg"
+  image_pos: "right" # bottom
+  description: |
+    This project is a cooperation with Antai College of Economy and Management, 
+    Shanghai Jiao Tong University.
+
+    The big spender or "Whales" is usually the main revenue of a platform. The loss
+    of such customers will significantly reduce the cash flow of host platform. The 
+
+    
 # - project: Ultrametricity and Clusterability
 #   image: "/imgs/mape4gp.svg"
 #   image_pos: "left"
@@ -74,26 +97,3 @@
 #     way may inform how we configure things such as variation/mutation or selection operators.
 
 #     This project is an ongoing collaboration with fellow devolab student, [Emily Dolson](http://emilyldolson.com).
-
-
-- project: The Loss Prediction of Big Spender (The Whales) on Live Streaming Platform
-  image: "/imgs/evoplast.svg"
-  image_pos: "right" # bottom
-  description: |
-    This project is a cooperation with Antai College of Economy and Management, 
-    Shanghai Jiao Tong University.
-
-    The big spender or "Whales" is usually the main revenue of a platform. The loss
-    of such customers will significantly reduce the cash flow of host platform. The 
-
-
-- project: Test project
-  image: "/imgs/evoplast.svg"
-  image_pos: "right" # bottom
-  description: |
-    This project is a cooperation with Antai College of Economy and Management, 
-    Shanghai Jiao Tong University.
-
-    The big spender or "Whales" is usually the main revenue of a platform. The loss
-    of such customers will significantly reduce the cash flow of host platform. The 
-    
