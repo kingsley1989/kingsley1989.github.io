@@ -55,7 +55,7 @@
 
 - project: The Loss Prediction of Big Spender (The Whales) on Live Streaming Platform
   image: "/imgs/evoplast.svg"
-  image_pos: "right" # bottom
+  image_pos: "left" # bottom
   description: |
     This project is a cooperation with Antai College of Economy and Management, 
     Shanghai Jiao Tong University.
@@ -63,7 +63,7 @@
     The big spender or "Whales" is usually the main revenue of a platform. The loss
     of such customers will significantly reduce the cash flow of host platform. The 
 
-    
+
 # - project: Ultrametricity and Clusterability
 #   image: "/imgs/mape4gp.svg"
 #   image_pos: "left"
