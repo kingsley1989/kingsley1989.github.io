@@ -27,7 +27,7 @@
 
 - project: Unsupersived Model Selection on Dataset with Imbalanced clusters
   image: "/imgs/evoplast.svg"
-  image_pos: "right" # bottom
+  image_pos: "left" # bottom
   description: |
     Model selection remains a challenge in machine learning field. In clustering, the
     problem will become the selection of the optimal $k$ clusters.  
@@ -35,7 +35,7 @@
 
 - project: Water Price Prediction and Policy design
   image: "/imgs/signalgp.svg"
-  image_pos: "left"
+  image_pos: "right"
   description: |
     This project is cooperated with the Ministry of Water Resources. It tends to take
     advantage of machine learning techniques to help the users and policy designers to 
@@ -49,10 +49,10 @@
     ML algorithms to have a better seasonal preiction and could also reveal the relationship and
     importance of different attributes.
 
-    
+
 - project: The Loss Prediction of Big Spender (The Whales) on Live Streaming Platform
   image: "/imgs/evoplast.svg"
-  image_pos: "right" # bottom
+  image_pos: "left" # bottom
   description: |
     This project is a cooperation with Antai College of Economy and Management, 
     Shanghai Jiao Tong University.
