@@ -1,27 +1,10 @@
 # research.yml gives research project entries used on the Research page
 
-- project: Water Price Prediction and Policy design
-  image: "/imgs/signalgp.svg"
-  image_pos: "left"
-  description: |
-    This project is cooperated with the Ministry of Water Resources to take advantage
-    of machine learning techniques to help the users and policy designers to have a
-    clear expectation of future water price. 
-
-    Water trading is a special economic event, the price of water could vary largely 
-    based on region, season, using purpose or even buyer and seller's current condition.
-    Traditional methods for water trading price prediction have their own limitations.
-    Many non-linear correlations between different factors require more heuristic algorithms
-    to enhance the prediction quality. This project aims to adopt or design some proper
-    ML algorithms to have a better seasonal preiction and could also reveal the relationship and
-    importance of different attributes.
-
-
 - project: Ultrametricity and Clusterability
   image: "/imgs/majortrans.svg"
   image_pos: "right"
   description: |
-    K from Cornell states that it is impossible to design a clustering algorithm that
+    Kleinberg states that it is impossible to design a clustering algorithm that
     satisfiy three conditions. To detect whether a dataset has a cluster structure or 
     is clusterable, we have to 
 
@@ -46,16 +29,28 @@
   image: "/imgs/evoplast.svg"
   image_pos: "right" # bottom
   description: |
-    This project is a cooperation with Antai College of Economy and Management, 
-    Shanghai Jiao Tong University.
+    Model selection remains a challenge in machine learning field. In clustering, the
+    problem will become the selection of the optimal $k$ clusters.  
 
-    The big spender or "Whales" is usually the main revenue of a platform. The loss
-    of such customers will significantly reduce the cash flow of host platform. The 
+- project: Water Price Prediction and Policy design
+  image: "/imgs/signalgp.svg"
+  image_pos: "left"
+  description: |
+    This project is cooperated with the Ministry of Water Resources to take advantage
+    of machine learning techniques to help the users and policy designers to have a
+    clear expectation of future water price. 
 
+    Water trading is a special economic event, the price of water could vary largely 
+    based on region, season, using purpose or even buyer and seller's current condition.
+    Traditional methods for water trading price prediction have their own limitations.
+    Many non-linear correlations between different factors require more heuristic algorithms
+    to enhance the prediction quality. This project aims to adopt or design some proper
+    ML algorithms to have a better seasonal preiction and could also reveal the relationship and
+    importance of different attributes.
 
 - project: The Loss Prediction of Big Spender (The Whales) on Live Streaming Platform
   image: "/imgs/evoplast.svg"
-  image_pos: "left" # bottom
+  image_pos: "right" # bottom
   description: |
     This project is a cooperation with Antai College of Economy and Management, 
     Shanghai Jiao Tong University.
