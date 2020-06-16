@@ -1,20 +1,13 @@
 # research.yml gives research project entries used on the Research page
 
-- project: Ultrametricity and Clusterability
+- project: Ultrametricity, Clusterability and Hierarchical Clustering
   image: "/imgs/majortrans.svg"
   image_pos: "right"
   description: |
-    Kleinberg states that it is impossible to design a clustering algorithm that
+    CLustering tendency is always an important issue for the community. Kleinberg states that it is impossible to design a clustering algorithm that
     satisfiy three conditions. To detect whether a dataset has a cluster structure or 
     is clusterable, we have to 
 
-    This project is 
-    
-
-- project: Ultrametricity and Hierarchical Clustering
-  image: "/imgs/majortrans.svg"
-  image_pos: "left"
-  description: |
     Hierarchical clustering is a popular clustering algorithm since it can give the
     users an hierarchical relation between different observations, and could let users
     to choose how many clusters current dataset should have. Such algorithms, especially
@@ -22,8 +15,15 @@
     biology, manufacturing and psychology. However, the time complexity is the main 
     drawback of hierarchical clustering algorithms. 
 
-    This project is 
-
+    This work is a practical development of the techniques that used in the above
+    project. Currently We proved that a min-max ultrametric matrix operation on arbitray 
+    distance matrix could finally converged in to an ultrametric matrix. We also proved 
+    that such matrix is identical to the cophnetic distance matrix from single linkage 
+    hierarchical clustering algorithm. The natural of matrix-like operation intrigues 
+    us to utilize GPU to accelerate the process of calculate hierarchical clustering. 
+    Moreover, such GPU enhanced algorithm could also assist on the speed of clusterability
+    computing.
+    
 
 - project: Unsupersived Model Selection on Dataset with Imbalanced clusters
   image: "/imgs/evoplast.svg"
@@ -32,13 +32,14 @@
     Model selection remains a challenge in machine learning field. In clustering, the
     problem will become the selection of the optimal $k$ clusters.  
 
+
 - project: Water Price Prediction and Policy design
   image: "/imgs/signalgp.svg"
   image_pos: "left"
   description: |
-    This project is cooperated with the Ministry of Water Resources to take advantage
-    of machine learning techniques to help the users and policy designers to have a
-    clear expectation of future water price. 
+    This project is cooperated with the Ministry of Water Resources. It tends to take
+    advantage of machine learning techniques to help the users and policy designers to 
+    have a clear expectation of future water price. 
 
     Water trading is a special economic event, the price of water could vary largely 
     based on region, season, using purpose or even buyer and seller's current condition.
@@ -48,6 +49,7 @@
     ML algorithms to have a better seasonal preiction and could also reveal the relationship and
     importance of different attributes.
 
+    
 - project: The Loss Prediction of Big Spender (The Whales) on Live Streaming Platform
   image: "/imgs/evoplast.svg"
   image_pos: "right" # bottom
