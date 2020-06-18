@@ -2,7 +2,7 @@
 
 - project: Ultrametricity and Clusterability
   image: "/imgs/majortrans.svg"
-  image_pos: "right"
+  image_pos: "left"
   description: |
     CLustering tendency is always an important issue for the community Kleinberg's 
     impossibility theorem poses diffcult problems for users. The increasing needs of
@@ -47,7 +47,7 @@
   image_pos: "left" # bottom
   description: |
     Model selection remains a challenge in machine learning field. In clustering, the
-    problem will become the selection of the optimal $k$ clusters. There plenty of methods
+    problem will become the selection of the optimal $s$k$$ clusters. There plenty of methods
     on guiding how to choose the optimal $k$. However, many methods will failed if the
     dataset have an imbalanced cluster structure.  
 
@@ -80,10 +80,16 @@
   image_pos: "left" # bottom
   description: |
     This project is a cooperation with Antai College of Economy and Management, 
-    Shanghai Jiao Tong University.
+    Shanghai Jiao Tong University. It aims to design a specified machine learning model to predict
+    the loss of "whales" of a online platform and further provide the pivot factors that influence 
+    the leaving of those high-value spenders. 
 
-    The big spender or "Whales" is usually the main revenue of a platform. The loss
-    of such customers will significantly reduce the cash flow of host platform. The 
+    The "Whales" usually refers to users that spend a lot of money in online platforms and the
+    income of them could be the main revenue of those platforms. The loss of such customers will 
+    significantly reduce the cash flow of host platform. In recent years, the customers on online platform
+    reveal more interesting purchasing behaviors on virtual properties. Although platform owners gathered
+    numerous data from their users, instantaneity and interpretability still remains the practical problems
+    for them.
 
 
 # - project: Ultrametricity and Clusterability
