@@ -4,13 +4,13 @@
   image: "/imgs/majortrans.svg"
   image_pos: "right"
   description: |
-    CLustering tendency is always an important issue for the community. Kleinberg's
-    impossibility theorem poses dicult problems for users. The increasing needs of 
+    CLustering tendency is always an important issue for the community Kleinberg's 
+    impossibility theorem poses diffcult problems for users. The increasing needs of
     clustering massive datasets and the high cost of running clustering algorithms 
     prompt the requirements to determine if a data set is clusterable before users 
     running the clustering algorithm on the dataset. To detect whether a dataset has 
-    a cluster structure or is clusterable, that is, it may be partitioned eciently 
-    into well-dierentiated groups containing similar objects. we have to looking for 
+    a cluster structure or is clusterable, that is, it may be partitioned efficiently 
+    into well-differentiated groups containing similar objects. we have to looking for
     a proper way to measure the closeness between the original distance space and it's 
     corresponding benchmark space that is "most" clusterable. 
 
