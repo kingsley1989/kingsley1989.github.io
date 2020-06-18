@@ -47,8 +47,8 @@
   image_pos: "left" # bottom
   description: |
     Model selection remains a challenge in machine learning field. In clustering, the
-    problem will become the selection of the optimal $s$k$$ clusters. There plenty of methods
-    on guiding how to choose the optimal $k$. However, many methods will failed if the
+    problem will become the selection of the optimal k clusters. There plenty of methods
+    on guiding how to choose the optimal k. However, many methods will failed if the
     dataset have an imbalanced cluster structure.  
 
     In this theoratical project, we try to develop a technique grounded in information
@@ -75,13 +75,13 @@
     importance of different attributes.
 
 
-- project: The Loss Prediction of Big Spender (The Whales) on Live Streaming Platform
+- project: The Loss Prediction of The "Whales" on Live Streaming Platform
   image: "/imgs/evoplast.svg"
   image_pos: "left" # bottom
   description: |
     This project is a cooperation with Antai College of Economy and Management, 
     Shanghai Jiao Tong University. It aims to design a specified machine learning model to predict
-    the loss of "whales" of a online platform and further provide the pivot factors that influence 
+    the loss of "whales" of a live streaming sonline platform and further provide the pivot factors that influence 
     the leaving of those high-value spenders. 
 
     The "Whales" usually refers to users that spend a lot of money in online platforms and the
