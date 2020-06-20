@@ -43,7 +43,7 @@
     
 
 - project: Unsupersived Model Selection on Dataset with Imbalanced clusters
-  image: "/imgs/evoplast.svg"
+  image: "/imgs/betaFuncBehv.jpeg"
   image_pos: "left" # bottom
   description: |
     Model selection remains a challenge in machine learning field. In clustering, the
