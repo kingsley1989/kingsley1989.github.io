@@ -2,15 +2,15 @@
 
 - project: Ultrametricity and Clusterability
   image: "/imgs/majortrans.svg"
-  image_pos: "right"
+  image_pos: "left"
   description: |
-    CLustering tendency is always an important issue for the community. Kleinberg's
-    impossibility theorem poses dicult problems for users. The increasing needs of 
+    CLustering tendency is always an important issue for the community Kleinberg's 
+    impossibility theorem poses diffcult problems for users. The increasing needs of
     clustering massive datasets and the high cost of running clustering algorithms 
     prompt the requirements to determine if a data set is clusterable before users 
     running the clustering algorithm on the dataset. To detect whether a dataset has 
-    a cluster structure or is clusterable, that is, it may be partitioned eciently 
-    into well-dierentiated groups containing similar objects. we have to looking for 
+    a cluster structure or is clusterable, that is, it may be partitioned efficiently 
+    into well-differentiated groups containing similar objects. we have to looking for
     a proper way to measure the closeness between the original distance space and it's 
     corresponding benchmark space that is "most" clusterable. 
 
@@ -43,12 +43,12 @@
     
 
 - project: Unsupersived Model Selection on Dataset with Imbalanced clusters
-  image: "/imgs/evoplast.svg"
+  image: "/imgs/betaFuncBehv.jpeg"
   image_pos: "left" # bottom
   description: |
     Model selection remains a challenge in machine learning field. In clustering, the
-    problem will become the selection of the optimal $k$ clusters. There plenty of methods
-    on guiding how to choose the optimal $k$. However, many methods will failed if the
+    problem will become the selection of the optimal k clusters. There plenty of methods
+    on guiding how to choose the optimal k. However, many methods will failed if the
     dataset have an imbalanced cluster structure.  
 
     In this theoratical project, we try to develop a technique grounded in information
@@ -75,15 +75,21 @@
     importance of different attributes.
 
 
-- project: The Loss Prediction of Big Spender (The Whales) on Live Streaming Platform
+- project: The Loss Prediction of "Whales" on Live Streaming Platform
   image: "/imgs/evoplast.svg"
   image_pos: "left" # bottom
   description: |
     This project is a cooperation with Antai College of Economy and Management, 
-    Shanghai Jiao Tong University.
+    Shanghai Jiao Tong University. It aims to design a specified machine learning model to predict
+    the loss of "whales" of a live streaming sonline platform and further provide the pivot factors that influence 
+    the leaving of those high-value spenders. 
 
-    The big spender or "Whales" is usually the main revenue of a platform. The loss
-    of such customers will significantly reduce the cash flow of host platform. The 
+    The "Whales" usually refers to users that spend a lot of money in online platforms and the
+    income of them could be the main revenue of those platforms. The loss of such customers will 
+    significantly reduce the cash flow of host platform. In recent years, the customers on online platform
+    reveal more interesting purchasing behaviors on virtual properties. Although platform owners gathered
+    numerous data from their users, instantaneity and interpretability still remains the practical problems
+    for them.
 
 
 # - project: Ultrametricity and Clusterability
