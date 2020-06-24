@@ -1,7 +1,7 @@
 # research.yml gives research project entries used on the Research page
 
 - project: Ultrametricity and Clusterability
-  image: "/imgs/majortrans.svg"
+  image: "/imgs/ultraclst.JPG"
   image_pos: "left"
   description: |
     CLustering tendency is always an important issue for the community Kleinberg's 
