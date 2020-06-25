@@ -27,7 +27,7 @@
 
 
 - project: Ultrametricity and Hierarchical Clustering
-  image: "/imgs/majortrans.svg"
+  image: "/imgs/ultrahierchy.jpg"
   image_pos: "right"
   description: |
     Hierarchical clustering is a popular clustering algorithm since it can give the
