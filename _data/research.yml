@@ -3,8 +3,13 @@
 - project: Ultrametricity and Clusterability
   image: "/imgs/ultraclst.JPG"
   image_pos: "left"
+  image_is_figure: true
+  figure_caption: 
+    Left is the original distance matrix of two entangled spirals. After min-max 
+    multiplication, the new ultramatrix is generated and shown on the right. A clear
+    two clusters structure revealed from the new distance matrix.
   description: |
-    CLustering tendency is always an important issue for the community Kleinberg's 
+    Clustering tendency is always an important issue for the community. Kleinberg's 
     impossibility theorem poses diffcult problems for users. The increasing needs of
     clustering massive datasets and the high cost of running clustering algorithms 
     prompt the requirements to determine if a data set is clusterable before users 
