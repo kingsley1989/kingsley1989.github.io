@@ -86,12 +86,12 @@
   description: |
     This project is a cooperation with Antai College of Economy and Management, 
     Shanghai Jiao Tong University. It aims to design a specified machine learning model to predict
-    the loss of "whales" of a live streaming sonline platform and further provide the pivot factors that influence 
+    the loss of "whales" of a live streaming online platform and further provide the pivot factors that influence 
     the leaving of those high-value spenders. 
 
-    The "Whales" usually refers to users that spend a lot of money in online platforms and the
+    The "Whales" usually refers to users that spend a lot of money at online platforms and the
     income of them could be the main revenue of those platforms. The loss of such customers will 
-    significantly reduce the cash flow of host platform. In recent years, the customers on online platform
+    significantly reduce the cash flow of host platform. In recent years, the customers at online platform
     reveal more interesting purchasing behaviors on virtual properties. Although platform owners gathered
     numerous data from their users, instantaneity and interpretability still remains the practical problems
     for them.
