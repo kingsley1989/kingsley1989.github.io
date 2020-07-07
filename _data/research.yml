@@ -5,96 +5,108 @@
   image_pos: "left"
   image_is_figure: true
   figure_caption: 
-    Left is the original distance matrix of two entangled spirals. After min-max 
-    multiplication, the new ultramatrix is generated and shown on the right. A clear
-    two clusters structure revealed from the new distance matrix.
+    Left is the original distance matrix of two entangled spirals. After 
+    min-max multiplication, the new ultrametric matrix is generated and 
+    shown on the right. A clear two clusters structure revealed from the 
+    new distance matrix.
   description: |
-    Clustering tendency is always an important issue for the community. Kleinberg's 
-    impossibility theorem poses diffcult problems for users. The increasing needs of
-    clustering massive datasets and the high cost of running clustering algorithms 
-    prompt the requirements to determine if a data set is clusterable before users 
-    running the clustering algorithm on the dataset. To detect whether a dataset has 
-    a cluster structure or is clusterable, that is, it may be partitioned efficiently 
-    into well-differentiated groups containing similar objects. we have to looking for
-    a proper way to measure the closeness between the original distance space and it's 
-    corresponding benchmark space that is "most" clusterable. 
-
-    In this project, we approach data clusterability from an ultrametric-based perspective.
-    A novel approach to determine the ultrametricity of a dataset is proposed via a 
-    special type of matrix product, which allows us to evaluate the clusterability 
-    of the dataset. Furthermore, we show that by applying our technique to a dissimilarity 
-    space will generate the sub-dominant ultrametric of the dissimilarity. 
+    Clustering tendency is always an important issue for the community. 
+    Kleinberg’s impossibility theorem poses diffcult problems for users. 
+    The increasing need to cluster massive datasets and the high cost of 
+    running clustering algorithms prompt the requirements to determine if 
+    a data set is clusterable before users are running the clustering 
+    algorithm on the dataset. To detect whether a dataset has a cluster 
+    structure or is clusterable, that is, it may be partitioned efficiently 
+    into well-differentiated groups containing similar objects. We have to 
+    look for a proper way to measure the closeness between the original 
+    distance space and its corresponding benchmark space that is "most" 
+    clusterable.
+    
+    In this project, we approach data clusterability from an ultrametric-
+    based perspective. A novel approach to determine the ultrametricity of 
+    a dataset is proposed via a particular type of matrix product, which 
+    allows us to evaluate the dataset’s clusterability. Furthermore, we 
+    show that applying our technique to a dissimilarity space will generate 
+    the sub-dominant ultrametric of the dissimilarity. 
 
 
 - project: Ultrametricity and Hierarchical Clustering
   image: "/imgs/ultrahierchy.jpg"
   image_pos: "right"
   description: |
-    Hierarchical clustering is a popular clustering algorithm since it can give the
-    users an hierarchical relation between different observations, and could let users
-    to choose how many clusters current dataset should have. Such algorithms, especially
-    the linkage based clustering algorithms, are widely used in many domains such as 
-    biology, manufacturing and psychology. However, the time complexity is the main 
-    drawback of hierarchical clustering algorithms. 
-
-    This work is a practical development of the techniques that used in the above
-    project. Currently We proved that a min-max ultrametric matrix operation on arbitray 
-    distance matrix could finally converged in to an ultrametric matrix. We also proved 
-    that such matrix is identical to the cophnetic distance matrix from single linkage 
-    hierarchical clustering algorithm. The natural of matrix-like operation intrigues 
-    us to utilize GPU to accelerate the process of calculate hierarchical clustering. 
-    Moreover, such GPU enhanced algorithm could also assist on the speed of clusterability
-    computing.
+    Hierarchical clustering is a popular clustering algorithm since it can 
+    give the users a hierarchical relation between different observations 
+    and let users choose how many clusters the current dataset should have. 
+    Such algorithms, especially the linkage based clustering algorithms, 
+    are widely used in many domains such as biology, manufacturing, and 
+    psychology. However, the time complexity is the main drawback of 
+    hierarchical clustering algorithms.
+    
+    This work is a practical development of the techniques used in the 
+    above project. Currently, we proved that a min-max ultrametric matrix 
+    operation on an arbitrary distance matrix could finally converge into 
+    an ultrametric matrix. We also proved that such a matrix is identical 
+    to the cophenetic distance matrix from the single-linkage hierarchical 
+    clustering algorithm. The nature of matrix-like operation intrigues us 
+    to utilize GPU to accelerate the process of calculating hierarchical 
+    clustering. Moreover, such a GPU-enhanced algorithm could also assist 
+    in the speed of clusterability computing.
     
 
 - project: Unsupersived Model Selection on Dataset with Imbalanced clusters
   image: "/imgs/betaFuncBehv.jpeg"
   image_pos: "left" # bottom
   description: |
-    Model selection remains a challenge in machine learning field. In clustering, the
-    problem will become the selection of the optimal k clusters. There plenty of methods
-    on guiding how to choose the optimal k. However, many methods will failed if the
-    dataset have an imbalanced cluster structure.  
-
-    In this theoratical project, we try to develop a technique grounded in information
-    theory for determining the “natural” number of clusters existent in a data set, 
-    especially for dealing with clusterings of imbalanced data. Our approach involves 
-    a bi-criteria optimization that makes use of the entropy and the cohesion of a 
-    partition. 
+    Model selection remains a challenge in the machine learning field. In 
+    clustering, the problem will become the selection of the optimal k 
+    clusters. There are plenty of methods of guiding how to choose k. 
+    However, most of them will fail if the dataset has an imbalanced 
+    cluster structure.
+    
+    In this theoretical project, we try to develop a technique grounded in 
+    information theory for determining the “natural” number of clusters 
+    existent in a data set, especially for dealing with clusterings of 
+    imbalanced data. Our approach involves a bi-criteria optimization that 
+    makes use of the entropy and the cohesion of a partition.
 
 
 - project: Water Price Prediction and Policy design
   image: "/imgs/water.jpg"
   image_pos: "right"
   description: |
-    This project is cooperated with the Ministry of Water Resources. It tends to take
-    advantage of machine learning techniques to help the users and policy designers to 
-    have a clear expectation of future water price. 
-
-    Water trading is a special economic event, the price of water could vary largely 
-    based on region, season, using purpose or even buyer and seller's current condition.
-    Traditional methods for water trading price prediction have their own limitations.
-    Many non-linear correlations between different factors require more heuristic algorithms
-    to enhance the prediction quality. This project aims to adopt or design some proper
-    ML algorithms to have a better seasonal preiction and could also reveal the relationship and
-    importance of different attributes.
+    This project cooperates with the Ministry of Water Resources. It tends 
+    to take advantage of machine learning techniques to help the users and 
+    policy designers to have a clear expectation of future water prices.
+    
+    Water trading is a special economic event. The price of water could 
+    vary primarily based on region, season, using purpose, or even buyer 
+    and seller’s current condition. Traditional methods for water trading 
+    price prediction have their limitations. Specifically, many non-linear 
+    correlations between different factors require more heuristic 
+    algorithms to enhance the prediction quality. This project aims to 
+    adopt or design some proper ML algorithms to have a better seasonal 
+    prediction and could also reveal the relationship and importance of 
+    different attributes.
 
 
 - project: The Loss Prediction of "Whales" on Live Streaming Platform
   image: "/imgs/evoplast.svg"
   image_pos: "left" # bottom
   description: |
-    This project is a cooperation with Antai College of Economy and Management, 
-    Shanghai Jiao Tong University. It aims to design a specified machine learning model to predict
-    the loss of "whales" of a live streaming online platform and further provide the pivot factors that influence 
-    the leaving of those high-value spenders. 
-
-    The "Whales" usually refers to users that spend a lot of money at online platforms and the
-    income of them could be the main revenue of those platforms. The loss of such customers will 
-    significantly reduce the cash flow of host platform. In recent years, the customers at online platform
-    reveal more interesting purchasing behaviors on virtual properties. Although platform owners gathered
-    numerous data from their users, instantaneity and interpretability still remains the practical problems
-    for them.
+    This project is a cooperation with Antai College of Economy and 
+    Management, Shanghai Jiao Tong University. It aims to design a 
+    specified machine learning model to predict the loss of “whales” of a 
+    live streaming online platform and further provide the pivot factors 
+    that influence the leaving of those high-value spenders.
+    
+    The “Whales” usually refers to users who spend much money on online 
+    platforms, and the income from them could be the primary revenue of 
+    the platforms. The loss of such customers will significantly reduce 
+    the cash flow of the host platform. In recent years, the customers at 
+    the online platform reveal more interesting purchasing behaviors on 
+    virtual properties. Although platform owners gathered numerous data 
+    from their users, instantaneity and interpretability remain practical 
+    problems.
 
 
 # - project: Ultrametricity and Clusterability
