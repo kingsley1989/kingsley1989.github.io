@@ -11,8 +11,8 @@ about_me: |
   
   As a machine learning researcher, I enjoy applying new technologies to solve real-life problems. Here are some projects that I created for the convenience of myself and my family. I also enjoy traveling and astrophotography during my sparse time.
 
-about_me_img: "/imgs/bostonharbor.JPG"
+about_me_img: "/imgs/AtlanticFishCo.jpeg"
 about_me_img_caption: |
-  Harbor Cruise, Boston, MA (Fall 2015)
+  Atlantic Fish Co., Boston, MA (Winter 2018)
 
 ---
