@@ -1,5 +1,28 @@
 # research.yml gives research project entries used on the Research page
 
+- project: Next Generation Large-scale Training Algorithms with Deterministic Global Optimality
+  image: "/imgs/rsbb.png"
+  image_pos: "left"
+  image_is_figure: true
+  figure_caption: 
+    Reduced-space branch and bound clustering that can guarantee 
+    to converge by only branching on the center of clusters.
+  description: |
+    Due to the NP-hardness of many machine learning (ML) problems such as 
+    clustering, decision tree, and neural network, one primary belief is that 
+    solving ML problems to global optimality is computationally intractable. 
+    Based on this, the dominant methods in practice are based on either heuristics 
+    or local optimization algorithms, producing sub-optimal solutions. The other 
+    specious belief for the ML community is that, in the era of big data, simple 
+    models with strong interpretability (e.g., decision trees) cannot have the 
+    same predictive power as black-box models. In this project, we developed a series of scalable 
+    global optimization algorithms with deterministic global optimality guarantees 
+    that challenges the above prevailing mindsets with the following conclusions. 
+    1) With the detection of problem structure, solving large-scale ML problems 
+    to global optimality is computationally feasible. 2) When the global 
+    optimality is obtained, the performance of highly interpretable ML models 
+    on large datasets can be substantially improved}. 
+
 - project: Ultrametricity and Clusterability
   image: "/imgs/ultraclst.JPG"
   image_pos: "left"
@@ -11,7 +34,7 @@
     new distance matrix.
   description: |
     Clustering tendency is always an important issue for the community. 
-    Kleinberg’s impossibility theorem poses diffcult problems for users. 
+    Kleinberg's impossibility theorem poses diffcult problems for users. 
     The increasing need to cluster massive datasets and the high cost of 
     running clustering algorithms prompt the requirements to determine if 
     a data set is clusterable before users are running the clustering 
@@ -89,24 +112,24 @@
     different attributes.
 
 
-- project: The Loss Prediction of "Whales" on Live Streaming Platform
-  image: "/imgs/evoplast.svg"
-  image_pos: "left" # bottom
-  description: |
-    This project is a cooperation with Antai College of Economy and 
-    Management, Shanghai Jiao Tong University. It aims to design a 
-    specified machine learning model to predict the loss of “whales” of a 
-    live streaming online platform and further provide the pivot factors 
-    that influence the leaving of those high-value spenders.
-    
-    The “Whales” usually refers to users who spend much money on online 
-    platforms, and the income from them could be the primary revenue of 
-    the platforms. The loss of such customers will significantly reduce 
-    the cash flow of the host platform. In recent years, the customers at 
-    the online platform reveal more interesting purchasing behaviors on 
-    virtual properties. Although platform owners gathered numerous data 
-    from their users, instantaneity and interpretability remain practical 
-    problems.
+#- project: The Loss Prediction of "Whales" on Live Streaming Platform
+#  image: "/imgs/evoplast.svg"
+#  image_pos: "left" # bottom
+#  description: |
+#    This project is a cooperation with Antai College of Economy and 
+#    Management, Shanghai Jiao Tong University. It aims to design a 
+#    specified machine learning model to predict the loss of “whales” of a 
+#    live streaming online platform and further provide the pivot factors 
+#    that influence the leaving of those high-value spenders.
+#    
+#    The “Whales” usually refers to users who spend much money on online 
+#    platforms, and the income from them could be the primary revenue of 
+#    the platforms. The loss of such customers will significantly reduce 
+#    the cash flow of the host platform. In recent years, the customers at 
+#    the online platform reveal more interesting purchasing behaviors on 
+#    virtual properties. Although platform owners gathered numerous data 
+#    from their users, instantaneity and interpretability remain practical 
+#    problems.
 
 
 # - project: Ultrametricity and Clusterability
