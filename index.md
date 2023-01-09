@@ -9,7 +9,7 @@ about_me: |
   
   My research focuses on the use of clusterability and deterministic global optimization tools to address challenges when building scalable trustworthy machine learning systems. In collaboration with industrial and experimental research groups, I am using my algorithms in a wide range of applications, including neural network modularity, federated learning, biomass and biorefinery processes, neural decoding of the brain, and business decision-making. I have developed several open-source software products (with shared or distributed memory) for the community.
   
-  As a machine learning researcher, I enjoy applying new technologies to solve real-life problems. I also enjoy traveling and astrophotography during my sparse time.
+  As a machine learning researcher, I enjoy applying new technologies to solve real-life problems. I also enjoy traveling and astrophotography during my spare time.
 
 about_me_img: "/imgs/bio-kaixun.jpeg"
 about_me_img_caption: |
