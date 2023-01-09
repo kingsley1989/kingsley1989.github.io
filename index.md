@@ -11,8 +11,8 @@ about_me: |
   
   As a machine learning researcher, I enjoy applying new technologies to solve real-life problems. Here are some projects that I created for the convenience of myself and my family. I also enjoy traveling and astrophotography during my sparse time.
 
-about_me_img: "/imgs/AtlanticFishCo.jpeg"
+about_me_img: "/imgs/bio-kaixun.jpeg"
 about_me_img_caption: |
-  Atlantic Fish Co., Boston, MA (Winter 2018)
+  White Rock, BC (Spring 2021)
 
 ---
