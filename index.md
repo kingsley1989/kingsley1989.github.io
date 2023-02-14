@@ -12,7 +12,7 @@ about_me: |
   As a machine learning researcher, I enjoy applying new technologies to solve real-life problems. I also enjoy traveling and astrophotography during my spare time.
 
 news: |
-  **I am on 2023 academic job market!**
+  **I am on the 2022-2023 academic job market!**
 
 about_me_img: "/imgs/bio-kaixun.jpeg"
 about_me_img_caption: |
