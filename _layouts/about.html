@@ -7,7 +7,7 @@ layout: default
   <div class="row mt-3"> <!-- This row contains the about me blurb w/a picture. -->
 
     <div class="col-8"> <!-- About me blurb -->
-      <div class="card border-0 bg-light text-dark">
+      <!--<div class="card border-0 bg-light text-dark">
         <div class="card-body">
           <div class="card-block px-2">
             <h4 class="card-title">About Me</h4>
@@ -16,7 +16,10 @@ layout: default
             </p>
           </div>
         </div>
-      </div>
+      </div>-->
+      <p>
+        {{ page.about_me | markdownify }}
+      </p>
     </div>
 
     <div class="col-4"> <!-- Image of me -->
