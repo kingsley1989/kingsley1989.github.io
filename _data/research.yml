@@ -2,7 +2,7 @@
 
 - project: Next Generation Large-scale Training Algorithms with Deterministic Global Optimality
   image: "/imgs/rsbb.png"
-  image_pos: "left"
+  image_pos: "right"
   image_is_figure: true
   figure_caption: 
     Reduced-space branch and bound clustering that can guarantee 
@@ -21,7 +21,7 @@
     1) With the detection of problem structure, solving large-scale ML problems 
     to global optimality is computationally feasible. 2) When the global 
     optimality is obtained, the performance of highly interpretable ML models 
-    on large datasets can be substantially improved}. 
+    on large datasets can be substantially improved. 
 
 - project: Ultrametricity and Clusterability
   image: "/imgs/ultraclst.JPG"
@@ -48,7 +48,7 @@
     In this project, we approach data clusterability from an ultrametric-
     based perspective. A novel approach to determine the ultrametricity of 
     a dataset is proposed via a particular type of matrix product, which 
-    allows us to evaluate the dataset’s clusterability. Furthermore, we 
+    allows us to evaluate the dataset's clusterability. Furthermore, we 
     show that applying our technique to a dissimilarity space will generate 
     the sub-dominant ultrametric of the dissimilarity. 
 
@@ -103,7 +103,7 @@
     
     Water trading is a special economic event. The price of water could 
     vary primarily based on region, season, using purpose, or even buyer 
-    and seller’s current condition. Traditional methods for water trading 
+    and seller's current condition. Traditional methods for water trading 
     price prediction have their limitations. Specifically, many non-linear 
     correlations between different factors require more heuristic 
     algorithms to enhance the prediction quality. This project aims to 
