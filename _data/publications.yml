@@ -38,18 +38,18 @@ publications:
     #github_repository_link: https://github.com/alife-data-standards/alife-data-standards
     #presentation_link: https://docs.google.com/presentation/d/19fQMsfnYh154G5ZdcJfsjcap6MKjG57p-VncMsjwbQY/edit?usp=sharing
     #pdf: /pubs/Lalejini_et_al_2019_Data_Standards_For_Artificial_Life_Software.pdf
-    bibtex_id: hua2016long
-    bibtex: |
-      ```bibtex
-        @inproceedings{hua2016long,
-          title={Long-lead term precipitation forecasting by hierarchical clustering-based bayesian structural vector autoregression},
-          author={Hua, Kaixun and Simovici, Dan A},
-          booktitle={2016 IEEE 13th International Conference on Networking, Sensing, and Control (ICNSC)},
-          pages={1--6},
-          year={2016},
-          organization={IEEE}
-        }
-      ```
+    # bibtex_id: hua2016long
+    # bibtex: |
+    #   ```bibtex
+    #     @inproceedings{hua2016long,
+    #       title={Long-lead term precipitation forecasting by hierarchical clustering-based bayesian structural vector autoregression},
+    #       author={Hua, Kaixun and Simovici, Dan A},
+    #       booktitle={2016 IEEE 13th International Conference on Networking, Sensing, and Control (ICNSC)},
+    #       pages={1--6},
+    #       year={2016},
+    #       organization={IEEE}
+    #     }
+    #   ```
   - citation: |
       Kaixun Hua, Dan A. Simovici (2018)
       [Dual Criteria Determination of the Number of Clusters in Data.](https://ieeexplore.ieee.org/abstract/document/8750738)
@@ -57,21 +57,19 @@ publications:
     year: 2018
     venue: conference
     type: before-2018
-    #github_repository_link: https://github.com/alife-data-standards/alife-data-standards
-    #presentation_link: https://docs.google.com/presentation/d/19fQMsfnYh154G5ZdcJfsjcap6MKjG57p-VncMsjwbQY/edit?usp=sharing
     pdf: /pubs/sltkclst.pdf
-    bibtex_id: hua2018dual
-    bibtex: |
-      ```bibtex
-        @inproceedings{hua2018dual,
-          title={Dual Criteria Determination of the Number of Clusters in Data},
-          author={Hua, Kaixun and Simovici, Dan A},
-          booktitle={2018 20th International Symposium on Symbolic and Numeric Algorithms for Scientific Computing (SYNASC)},
-          pages={201--208},
-          year={2018},
-          organization={IEEE}
-        }
-      ```
+    # bibtex_id: hua2018dual
+    # bibtex: |
+    #   ```bibtex
+    #     @inproceedings{hua2018dual,
+    #       title={Dual Criteria Determination of the Number of Clusters in Data},
+    #       author={Hua, Kaixun and Simovici, Dan A},
+    #       booktitle={2018 20th International Symposium on Symbolic and Numeric Algorithms for Scientific Computing (SYNASC)},
+    #       pages={201--208},
+    #       year={2018},
+    #       organization={IEEE}
+    #     }
+    #   ```
 
   - citation: |
       Dan A. Simovici, Kaixun Hua (2019)
@@ -83,21 +81,21 @@ publications:
     #github_repository_link: https://github.com/alife-data-standards/alife-data-standards
     #presentation_link: https://docs.google.com/presentation/d/19fQMsfnYh154G5ZdcJfsjcap6MKjG57p-VncMsjwbQY/edit?usp=sharing
     pdf: /pubs/ultraclst.pdf
-    bibtex_id: Simovici_2019
-    bibtex: |
-      ```bibtex
-        @article{Simovici_2019,
-          title = {Data ultrametricity and clusterability},
-          author = {Dan Simovici and Kaixun Hua},
-          url = {https://doi.org/10.1088/1742-6596/1334/1/012002},
-          doi = {10.1088/1742-6596/1334/1/012002},
-          journal = {Journal of Physics: Conference Series},
-          volume = {1334},
-          pages = {012002},
-          year = {2019},
-          publisher = {{IOP} Publishing}
-        }
-      ```
+    # bibtex_id: Simovici_2019
+    # bibtex: |
+    #   ```bibtex
+    #     @article{Simovici_2019,
+    #       title = {Data ultrametricity and clusterability},
+    #       author = {Dan Simovici and Kaixun Hua},
+    #       url = {https://doi.org/10.1088/1742-6596/1334/1/012002},
+    #       doi = {10.1088/1742-6596/1334/1/012002},
+    #       journal = {Journal of Physics: Conference Series},
+    #       volume = {1334},
+    #       pages = {012002},
+    #       year = {2019},
+    #       publisher = {{IOP} Publishing}
+    #     }
+    #   ```
 
   - citation: |
       Ziyao Xu, Jijian Lian, Lingling Bin, Kaixun Hua, Kui Xu, Hoi Yi Chan (2019)
@@ -107,22 +105,22 @@ publications:
     venue: journal
     type: 2019
     #github_repository_link: https://github.com/emilydolson/interpreting_the_tape_of_life
-    bibtex_id: w11020228
-    bibtex: |
-      ```bibtex
-        @Article{w11020228,
-          AUTHOR = {Xu, Ziyao and Lian, Jijian and Bin, Lingling and Hua, Kaixun and Xu, Kui and Chan, Hoi Yi},
-          TITLE = {Water Price Prediction for Increasing Market Efficiency Using Random Forest Regression: A Case Study in the Western United States},
-          JOURNAL = {Water},
-          VOLUME = {11},
-          YEAR = {2019},
-          NUMBER = {2},
-          ARTICLE-NUMBER = {228},
-          URL = {https://www.mdpi.com/2073-4441/11/2/228},
-          ISSN = {2073-4441},
-          DOI = {10.3390/w11020228}
-        }
-      ```
+    # bibtex_id: w11020228
+    # bibtex: |
+    #   ```bibtex
+    #     @Article{w11020228,
+    #       AUTHOR = {Xu, Ziyao and Lian, Jijian and Bin, Lingling and Hua, Kaixun and Xu, Kui and Chan, Hoi Yi},
+    #       TITLE = {Water Price Prediction for Increasing Market Efficiency Using Random Forest Regression: A Case Study in the Western United States},
+    #       JOURNAL = {Water},
+    #       VOLUME = {11},
+    #       YEAR = {2019},
+    #       NUMBER = {2},
+    #       ARTICLE-NUMBER = {228},
+    #       URL = {https://www.mdpi.com/2073-4441/11/2/228},
+    #       ISSN = {2073-4441},
+    #       DOI = {10.3390/w11020228}
+    #     }
+    #   ```
 
   - citation: |
       Irina Scheffner, Kaixun Hua, Dan Simovici, Tanja Abeling, Hermann G. Haller, & Wilfried Gwinner (2016)
@@ -131,22 +129,19 @@ publications:
     year: 2016
     venue: conference
     type: before-2018
-    #github_repository_link: https://github.com/amlalejini/GECCO-2019-tag-accessed-memory
-    #presentation_link: https://docs.google.com/presentation/d/1j4IusMVaNVOEcxFkIcveNyB_sfaFowQUFcLqLloCa5M/edit?usp=sharing
-    #pdf: /pubs/Lalejini_Ofria_2019_Tag-accessed_Memory.pdf
-    bibtex_id: scheffner2016prediction
-    bibtex: |
-      ```bibtex
-        @inproceedings{scheffner2016prediction,
-          title={Prediction of Patient Survival After Kidney Transplantation: Construction, Validation and Evaluation of Decision Models Using Data Mining Approaches},
-          author={Scheffner, I and Hua, K and Simovici, D and Abeling, T and Haller, H and Gwinner, W},
-          booktitle={AMERICAN JOURNAL OF TRANSPLANTATION},
-          volume={16},
-          pages={572--573},
-          year={2016},
-          organization={WILEY-BLACKWELL 111 RIVER ST, HOBOKEN 07030-5774, NJ USA}
-        }
-      ```
+    # bibtex_id: scheffner2016prediction
+    # bibtex: |
+    #   ```bibtex
+    #     @inproceedings{scheffner2016prediction,
+    #       title={Prediction of Patient Survival After Kidney Transplantation: Construction, Validation and Evaluation of Decision Models Using Data Mining Approaches},
+    #       author={Scheffner, I and Hua, K and Simovici, D and Abeling, T and Haller, H and Gwinner, W},
+    #       booktitle={AMERICAN JOURNAL OF TRANSPLANTATION},
+    #       volume={16},
+    #       pages={572--573},
+    #       year={2016},
+    #       organization={WILEY-BLACKWELL 111 RIVER ST, HOBOKEN 07030-5774, NJ USA}
+    #     }
+    #   ```
 
   - citation: |
         Dan A. Simovici, Rosanne Vetro, Kaixun Hua (2017)
@@ -158,23 +153,23 @@ publications:
     venue: book
     type: before-2018
     #github_repository_link: https://github.com/FergusonAJ/gptp-2019-subsampled-lexicase
-    bibtex_id: Simovici2017
-    bibtex: |
-      ```bibtex
-        @Inbook{Simovici2017,
-          author="Simovici, Dan A. and Vetro, Rosanne and Hua, Kaixun",
-          editor="Guillet, Fabrice and Pinaud, Bruno and Venturini, Gilles",
-          title="Ultrametricity of Dissimilarity Spaces and Its Significance for Data Mining",
-          bookTitle="Advances in Knowledge Discovery and Management: Volume 6",
-          year="2017",
-          publisher="Springer International Publishing",
-          address="Cham",
-          pages="141--155",
-          isbn="978-3-319-45763-5",
-          doi="10.1007/978-3-319-45763-5_8",
-          url="https://doi.org/10.1007/978-3-319-45763-5_8"
-        }
-      ```
+    # bibtex_id: Simovici2017
+    # bibtex: |
+    #   ```bibtex
+    #     @Inbook{Simovici2017,
+    #       author="Simovici, Dan A. and Vetro, Rosanne and Hua, Kaixun",
+    #       editor="Guillet, Fabrice and Pinaud, Bruno and Venturini, Gilles",
+    #       title="Ultrametricity of Dissimilarity Spaces and Its Significance for Data Mining",
+    #       bookTitle="Advances in Knowledge Discovery and Management: Volume 6",
+    #       year="2017",
+    #       publisher="Springer International Publishing",
+    #       address="Cham",
+    #       pages="141--155",
+    #       isbn="978-3-319-45763-5",
+    #       doi="10.1007/978-3-319-45763-5_8",
+    #       url="https://doi.org/10.1007/978-3-319-45763-5_8"
+    #     }
+    #   ```
 
   # - citation: |
   #     Emily Dolson, Alexander Lalejini, Steven Jorgensen, and Charles Ofria. (2018).
