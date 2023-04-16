@@ -4,6 +4,16 @@
 publication_types:
   - type_id: pre-print
     pretty: Preprints
+  - type_id: 2023
+    pretty: 2023
+  - type_id: 2022
+    pretty: 2022
+  - type_id: 2021
+    pretty: 2021
+  - type_id: 2020
+    pretty: 2020
+  - type_id: 2019
+    pretty: 2019
   - type_id: before-2018
     pretty: Before 2018
   - type_id: peer-reviewed-abstract
@@ -13,12 +23,6 @@ publication_types:
       to be published elsewhere.
   - type_id: book-chapter
     pretty: Book chapters
-  - type_id: 2019
-    pretty: 2019
-  - type_id: 2020
-    pretty: 2020
-  - type_id: 2021
-    pretty: 2021
 
 
 # Listing of publications
