@@ -2,10 +2,10 @@
 
 # Types of publication (in order of listing on page)
 publication_types:
-  - type_id: pre-pub
-    pretty: Pre-publication
-  - type_id: peer-reviewed-paper
-    pretty: Peer-reviewed papers
+  - type_id: pre-print
+    pretty: Preprints
+  - type_id: before-2018
+    pretty: Before 2018
   - type_id: peer-reviewed-abstract
     pretty: Peer-reviewed abstracts
     overview: |
@@ -13,6 +13,13 @@ publication_types:
       to be published elsewhere.
   - type_id: book-chapter
     pretty: Book chapters
+  - type_id: 2019
+    pretty: 2019
+  - type_id: 2020
+    pretty: 2020
+  - type_id: 2021
+    pretty: 2021
+
 
 # Listing of publications
 publications:
@@ -24,7 +31,7 @@ publications:
       DOI: [10.1109/ICNSC.2016.7479002](http://doi.org/10.1109/ICNSC.2016.7479002)
     year: 2016
     venue: conference
-    type: peer-reviewed-paper
+    type: before-2018
     #github_repository_link: https://github.com/alife-data-standards/alife-data-standards
     #presentation_link: https://docs.google.com/presentation/d/19fQMsfnYh154G5ZdcJfsjcap6MKjG57p-VncMsjwbQY/edit?usp=sharing
     #pdf: /pubs/Lalejini_et_al_2019_Data_Standards_For_Artificial_Life_Software.pdf
@@ -47,7 +54,7 @@ publications:
       DOI: [10.1109/SYNASC.2018.00040](http://doi.org/10.1109/SYNASC.2018.00040)
     year: 2018
     venue: conference
-    type: peer-reviewed-paper
+    type: before-2018
     #github_repository_link: https://github.com/alife-data-standards/alife-data-standards
     #presentation_link: https://docs.google.com/presentation/d/19fQMsfnYh154G5ZdcJfsjcap6MKjG57p-VncMsjwbQY/edit?usp=sharing
     pdf: /pubs/sltkclst.pdf
@@ -84,11 +91,6 @@ publications:
           url = {https://doi.org/10.1088/1742-6596/1334/1/012002},
           doi = {10.1088/1742-6596/1334/1/012002},
           journal = {Journal of Physics: Conference Series},
-          abstract = {The increasing needs of clustering massive datasets and the high cost of running clustering algorithms poses difficult problems for users. 
-          In this context it is important to determine if a data set is clusterable, that is, it may be partitioned efficiently into well-differentiated groups 
-          containing similar objects. We approach data clusterability from an ultrametric-based perspective. A novel approach to determine the ultrametricity of 
-          a dataset is proposed via a special type of matrix product, which allows us to evaluate the clusterability of the dataset. Furthermore, we show that by 
-          applying our technique to a dissimilarity space will generate the sub-dominant ultrametric of the dissimilarity.},
           volume = {1334},
           pages = {012002},
           year = {2019},
@@ -102,7 +104,7 @@ publications:
       Water. DOI: [10.3390/w11020228](https://doi.org/10.3390/w11020228)
     year: 2019
     venue: journal
-    type: peer-reviewed-paper
+    type: 2019
     #github_repository_link: https://github.com/emilydolson/interpreting_the_tape_of_life
     bibtex_id: w11020228
     bibtex: |
@@ -117,15 +119,6 @@ publications:
           ARTICLE-NUMBER = {228},
           URL = {https://www.mdpi.com/2073-4441/11/2/228},
           ISSN = {2073-4441},
-          ABSTRACT = {The existence of water markets establishes water prices, promoting trading of water from low- to high-valued uses. However, market participants 
-          can face uncertainty when asking and offering prices because water rights are heterogeneous, resulting in inefficiency of the market. This paper proposes three 
-          random forest regression models (RFR) to predict water price in the western United States: a full variable set model and two reduced ones with optimal numbers 
-          of variables using a backward variable elimination (BVE) approach. Transactions of 12 semiarid states, from 1987 to 2009, and a dataset containing various 
-          predictors, were assembled. Multiple replications of k-fold cross-validation were applied to assess the model performance and their generalizability was tested 
-          on unused data. The importance of price influencing factors was then analyzed based on two plausible variable importance rankings. Results show that the RFR 
-          models have good predictive power for water price. They outperform a baseline model without leading to overfitting. Also, the higher degree of accuracy of the 
-          reduced models is insignificant, reflecting the robustness of RFR to including lower informative variables. This study suggests that, due to its ability to 
-          automatically learn from and make predictions on data, RFR-based models can aid water market participants in making more efficient decisions.},
           DOI = {10.3390/w11020228}
         }
       ```
@@ -136,7 +129,7 @@ publications:
       In AMERICAN JOURNAL OF TRANSPLANTATION (Vol. 16, pp. 572-573). 111 RIVER ST, HOBOKEN 07030-5774, NJ USA: WILEY-BLACKWELL.
     year: 2016
     venue: conference
-    type: peer-reviewed-abstract
+    type: before-2018
     #github_repository_link: https://github.com/amlalejini/GECCO-2019-tag-accessed-memory
     #presentation_link: https://docs.google.com/presentation/d/1j4IusMVaNVOEcxFkIcveNyB_sfaFowQUFcLqLloCa5M/edit?usp=sharing
     #pdf: /pubs/Lalejini_Ofria_2019_Tag-accessed_Memory.pdf
@@ -162,7 +155,7 @@ publications:
         Springer, Cham. DOI: [10.1007/978-3-319-45763-5_8](https://doi.org/10.1007/978-3-319-45763-5_8)
     year: 2017
     venue: book
-    type: book-chapter
+    type: before-2018
     #github_repository_link: https://github.com/FergusonAJ/gptp-2019-subsampled-lexicase
     bibtex_id: Simovici2017
     bibtex: |
@@ -176,10 +169,6 @@ publications:
           publisher="Springer International Publishing",
           address="Cham",
           pages="141--155",
-          abstract="We introduce a measureHua, Kaixunof ultrametricitySimovici, Dan A.for dissimilarityVetro, Rosannespaces and examine transformations of dissimilarities 
-          that impact this measure. Then, we study the influence of ultrametricity on the behavior of two classes of data mining algorithms (kNN classification and PAM clustering) 
-          applied on dissimilarity spaces. We show that there is an inverse variation between ultrametricity and performance of classifiers. For clustering, increased ultrametricity 
-          generate clusterings with better separation. Lowering ultrametricity produces more compact clusters.",
           isbn="978-3-319-45763-5",
           doi="10.1007/978-3-319-45763-5_8",
           url="https://doi.org/10.1007/978-3-319-45763-5_8"
