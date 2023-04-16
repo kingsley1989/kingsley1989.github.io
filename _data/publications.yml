@@ -29,54 +29,28 @@ publication_types:
 publications:
 
   - citation: |
-      Kaixun Hua, Dan A. Simovici (2016)
-      [Long-lead term precipitation forecasting by hierarchical clustering-based bayesian structural vector autoregression.](https://ieeexplore.ieee.org/abstract/document/7479002)
-      2016 IEEE 13th International Conference on Networking, Sensing, and Control (ICNSC '16), Mexico City, Mexico, pp. 1-6.
-    year: 2016
-    venue: conference
-    type: before-2018
-    #github_repository_link: https://github.com/alife-data-standards/alife-data-standards
-    #presentation_link: https://docs.google.com/presentation/d/19fQMsfnYh154G5ZdcJfsjcap6MKjG57p-VncMsjwbQY/edit?usp=sharing
-    #pdf: /pubs/Lalejini_et_al_2019_Data_Standards_For_Artificial_Life_Software.pdf
-    # bibtex_id: hua2016long
-    # bibtex: |
-    #   ```bibtex
-    #     @inproceedings{hua2016long,
-    #       title={Long-lead term precipitation forecasting by hierarchical clustering-based bayesian structural vector autoregression},
-    #       author={Hua, Kaixun and Simovici, Dan A},
-    #       booktitle={2016 IEEE 13th International Conference on Networking, Sensing, and Control (ICNSC)},
-    #       pages={1--6},
-    #       year={2016},
-    #       organization={IEEE}
-    #     }
-    #   ```
-  - citation: |
-      Kaixun Hua, Dan A. Simovici (2018)
-      [Dual Criteria Determination of the Number of Clusters in Data.](https://ieeexplore.ieee.org/abstract/document/8750738)
-      In 2018 20th International Symposium on Symbolic and Numeric Algorithms for Scientific Computing (SYNASC '18), Timisoara, Romania, pp. 201-208.
-    year: 2018
-    venue: conference
-    type: before-2018
-    pdf: /pubs/sltkclst.pdf
-    # bibtex_id: hua2018dual
-    # bibtex: |
-    #   ```bibtex
-    #     @inproceedings{hua2018dual,
-    #       title={Dual Criteria Determination of the Number of Clusters in Data},
-    #       author={Hua, Kaixun and Simovici, Dan A},
-    #       booktitle={2018 20th International Symposium on Symbolic and Numeric Algorithms for Scientific Computing (SYNASC)},
-    #       pages={201--208},
-    #       year={2018},
-    #       organization={IEEE}
-    #     }
-    #   ```
+      Jiayang Ren, Ningning You, Kaixun Hua, Chaojie Ji, Yankai Cao (2022). 
+      [A Global Optimization Algorithm for K-Center Clustering of One Billion Samples.](https://arxiv.org/abs/2301.00061)
+      arXiv preprint arXiv:2301.00061.
+    year: 2022
+    venue: preprint
+    type: 2022
 
   - citation: |
-      Dan A. Simovici, Kaixun Hua (2019)
+      Kaixun Hua, Mingfei Shi, Yankai Cao (2021).
+      [A Scalable deterministic global optimization algorithm for clustering problems.](http://proceedings.mlr.press/v139/hua21a.html) 
+      In International Conference on Machine Learning (pp. 4391-4401). PMLR.
+    year: 2021
+    venue: conference
+    type: 2021
+    github_repository_link: https://github.com/kingsley1989/global_kmeans
+
+  - citation: |
+      Dan A. Simovici, Kaixun Hua (2019).
       [Data ultrametricity and clusterability.](https://iopscience.iop.org/article/10.1088/1742-6596/1334/1/012002/meta) 
       In Journal of Physics: Conference Series (Vol. 1334, No. 1, p. 012002). IOP Publishing.
     year: 2019
-    venue: preprint
+    venue: conference
     type: 2019
     #github_repository_link: https://github.com/alife-data-standards/alife-data-standards
     #presentation_link: https://docs.google.com/presentation/d/19fQMsfnYh154G5ZdcJfsjcap6MKjG57p-VncMsjwbQY/edit?usp=sharing
@@ -98,7 +72,7 @@ publications:
     #   ```
 
   - citation: |
-      Ziyao Xu, Jijian Lian, Lingling Bin, Kaixun Hua, Kui Xu, Hoi Yi Chan (2019)
+      Ziyao Xu, Jijian Lian, Lingling Bin, Kaixun Hua, Kui Xu, Hoi Yi Chan (2019).
       [Water Price Prediction for Increasing Market Efficiency Using Random Forest Regression: A Case Study in the Western United States.](https://www.mdpi.com/2073-4441/11/2/228)
       Water.
     year: 2019
@@ -123,28 +97,28 @@ publications:
     #   ```
 
   - citation: |
-      Irina Scheffner, Kaixun Hua, Dan Simovici, Tanja Abeling, Hermann G. Haller, & Wilfried Gwinner (2016)
-      [Prediction of Patient Survival After Kidney Transplantation: Construction, Validation and Evaluation of Decision Models Using Data Mining Approaches.](https://atcmeetingabstracts.com/abstract/prediction-of-patient-survival-after-kidney-transplantation-construction-validation-and-evaluation-of-decision-models-using-data-mining-approaches/)
-      In AMERICAN JOURNAL OF TRANSPLANTATION (Vol. 16, pp. 572-573). 111 RIVER ST, HOBOKEN 07030-5774, NJ USA: WILEY-BLACKWELL.
-    year: 2016
+      Kaixun Hua, Dan A. Simovici (2018).
+      [Dual Criteria Determination of the Number of Clusters in Data.](https://ieeexplore.ieee.org/abstract/document/8750738)
+      In 2018 20th International Symposium on Symbolic and Numeric Algorithms for Scientific Computing (SYNASC '18), Timisoara, Romania, pp. 201-208.
+    year: 2018
     venue: conference
     type: before-2018
-    # bibtex_id: scheffner2016prediction
+    pdf: /pubs/sltkclst.pdf
+    # bibtex_id: hua2018dual
     # bibtex: |
     #   ```bibtex
-    #     @inproceedings{scheffner2016prediction,
-    #       title={Prediction of Patient Survival After Kidney Transplantation: Construction, Validation and Evaluation of Decision Models Using Data Mining Approaches},
-    #       author={Scheffner, I and Hua, K and Simovici, D and Abeling, T and Haller, H and Gwinner, W},
-    #       booktitle={AMERICAN JOURNAL OF TRANSPLANTATION},
-    #       volume={16},
-    #       pages={572--573},
-    #       year={2016},
-    #       organization={WILEY-BLACKWELL 111 RIVER ST, HOBOKEN 07030-5774, NJ USA}
+    #     @inproceedings{hua2018dual,
+    #       title={Dual Criteria Determination of the Number of Clusters in Data},
+    #       author={Hua, Kaixun and Simovici, Dan A},
+    #       booktitle={2018 20th International Symposium on Symbolic and Numeric Algorithms for Scientific Computing (SYNASC)},
+    #       pages={201--208},
+    #       year={2018},
+    #       organization={IEEE}
     #     }
     #   ```
 
   - citation: |
-        Dan A. Simovici, Rosanne Vetro, Kaixun Hua (2017)
+        Dan A. Simovici, Rosanne Vetro, Kaixun Hua (2017).
         [Ultrametricity of Dissimilarity Spaces and Its Significance for Data Mining](https://link.springer.com/chapter/10.1007/978-3-319-45763-5_8)
         In: Guillet F., Pinaud B., Venturini G. (eds) 
         Advances in Knowledge Discovery and Management. Studies in Computational Intelligence, vol 665. 
@@ -170,6 +144,51 @@ publications:
     #       url="https://doi.org/10.1007/978-3-319-45763-5_8"
     #     }
     #   ```
+
+  - citation: |
+      Kaixun Hua, Dan A. Simovici (2016).
+      [Long-lead term precipitation forecasting by hierarchical clustering-based bayesian structural vector autoregression.](https://ieeexplore.ieee.org/abstract/document/7479002)
+      2016 IEEE 13th International Conference on Networking, Sensing, and Control (ICNSC '16), Mexico City, Mexico, pp. 1-6.
+    year: 2016
+    venue: conference
+    type: before-2018
+    #github_repository_link: https://github.com/alife-data-standards/alife-data-standards
+    #presentation_link: https://docs.google.com/presentation/d/19fQMsfnYh154G5ZdcJfsjcap6MKjG57p-VncMsjwbQY/edit?usp=sharing
+    #pdf: /pubs/Lalejini_et_al_2019_Data_Standards_For_Artificial_Life_Software.pdf
+    # bibtex_id: hua2016long
+    # bibtex: |
+    #   ```bibtex
+    #     @inproceedings{hua2016long,
+    #       title={Long-lead term precipitation forecasting by hierarchical clustering-based bayesian structural vector autoregression},
+    #       author={Hua, Kaixun and Simovici, Dan A},
+    #       booktitle={2016 IEEE 13th International Conference on Networking, Sensing, and Control (ICNSC)},
+    #       pages={1--6},
+    #       year={2016},
+    #       organization={IEEE}
+    #     }
+    #   ```
+
+  - citation: |
+      Irina Scheffner, Kaixun Hua, Dan Simovici, Tanja Abeling, Hermann G. Haller, & Wilfried Gwinner (2016).
+      [Prediction of Patient Survival After Kidney Transplantation: Construction, Validation and Evaluation of Decision Models Using Data Mining Approaches.](https://atcmeetingabstracts.com/abstract/prediction-of-patient-survival-after-kidney-transplantation-construction-validation-and-evaluation-of-decision-models-using-data-mining-approaches/)
+      In American Journal OF Transplantation (Vol. 16, pp. 572-573). 111 River St, Hoboken 07030-5774, NJ USA: WILEY-BLACKWELL.
+    year: 2016
+    venue: conference
+    type: before-2018
+    # bibtex_id: scheffner2016prediction
+    # bibtex: |
+    #   ```bibtex
+    #     @inproceedings{scheffner2016prediction,
+    #       title={Prediction of Patient Survival After Kidney Transplantation: Construction, Validation and Evaluation of Decision Models Using Data Mining Approaches},
+    #       author={Scheffner, I and Hua, K and Simovici, D and Abeling, T and Haller, H and Gwinner, W},
+    #       booktitle={AMERICAN JOURNAL OF TRANSPLANTATION},
+    #       volume={16},
+    #       pages={572--573},
+    #       year={2016},
+    #       organization={WILEY-BLACKWELL 111 RIVER ST, HOBOKEN 07030-5774, NJ USA}
+    #     }
+    #   ```
+
 
   # - citation: |
   #     Emily Dolson, Alexander Lalejini, Steven Jorgensen, and Charles Ofria. (2018).
