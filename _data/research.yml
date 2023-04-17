@@ -2,7 +2,7 @@
 
 - project: Next Generation Large-scale Training Algorithms with Deterministic Global Optimality
   image: "/imgs/rsbb.png"
-  image_pos: "right"
+  image_pos: "left"
   image_is_figure: true
   badge: ICML 2021
   figure_caption: 
@@ -28,6 +28,7 @@
   image: "/imgs/ultraclst.JPG"
   image_pos: "left"
   image_is_figure: true
+  badge: MMCTSE 2019
   figure_caption: 
     Left is the original distance matrix of two entangled spirals. After 
     min-max multiplication, the new ultrametric matrix is generated and 
