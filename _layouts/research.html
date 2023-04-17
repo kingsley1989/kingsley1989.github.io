@@ -20,7 +20,7 @@ layout: default
         <div class="paper-box-image">
           <div>
             <div class="badge">Test 2019</div>
-            <img src="imgs/bb_alg.png" alt="sym" width="100%" />
+            <img src="imgs/bb_alg.png" width="100%" />
           </div>
         </div>
         <div class="paper-box-text">
@@ -58,7 +58,7 @@ layout: default
                     {% if research.image_is_figure %}
                       <div class="badge badge-primary">{{ research.badge }}</div>
                       <figure class="figure">
-                        <img src="{{ research.image | relative_url }}" class="img-fluid figure-img" alt="">
+                        <img src="{{ research.image | relative_url }}" class="img-fluid figure-img" alt="" width="100%">
                         <figcaption class="figure-caption ml-2 mr-2">{{research.figure_caption | markdownify | remove: '<p>' | remove: '</p>' }}</figcaption>
                       </figure>
                     {% else %}
