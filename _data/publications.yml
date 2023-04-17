@@ -44,6 +44,7 @@ publications:
     year: 2021
     venue: conference
     type: 2021
+    badges: "ICML 2021"
     github_repository_link: https://github.com/kingsley1989/global_kmeans
 
   - citation: |

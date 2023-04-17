@@ -15,7 +15,7 @@ about_me: |
 
 news: |
   **I am on the 2022-2023 academic job market!**
-  - *2022.12*: Two papers are accepted by NeurIPS 2022!
+  - *2022.12*: 🎉🎉Two papers are accepted by NeurIPS 2022!
   - *2022.07*: One paper is accepted by ICML 2022!
   - *2021.07*: One paper is accepted by ICML 2021!
 
