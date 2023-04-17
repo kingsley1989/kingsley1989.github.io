@@ -16,7 +16,7 @@ news: |
   - *2022.07*: One paper is accepted by ICML 2022!
   - *2021.07*: One paper is accepted by ICML 2021!
 
-about_me_img: "/imgs/bio-kaixun.jpeg"
+about_me_img: "/imgs/personal/shanghai.jpeg"
 about_me_img_caption: |
   **Postdoctoral Research Fellow**
   at University of British Columbia

@@ -1,7 +1,7 @@
 # research.yml gives research project entries used on the Research page
 
 - project: Next Generation Large-scale Training Algorithms with Deterministic Global Optimality
-  image: "/imgs/rsbb.png"
+  image: "/imgs/professional/rsbb.png"
   image_pos: "left"
   image_is_figure: true
   badge: Optimization
@@ -24,7 +24,7 @@
     on large datasets can be substantially improved. 
 
 - project: Ultrametricity and Clusterability
-  image: "/imgs/ultraclst.JPG"
+  image: "/imgs/professional/ultraclst.JPG"
   image_pos: "left"
   image_is_figure: true
   badge: Representation
@@ -53,7 +53,7 @@
 
 
 # - project: Ultrametricity and Hierarchical Clustering
-#   image: "/imgs/ultrahierchy.jpg"
+#   image: "/imgs/professional/ultrahierchy.jpg"
 #   image_pos: "right"
 #   badge: MMCTSE 2019
 #   description: |
@@ -75,7 +75,7 @@
     
 
 - project: Unsupersived Model Selection on Dataset with Imbalanced clusters
-  image: "/imgs/betaFuncBehv.jpeg"
+  image: "/imgs/professional/betaFuncBehv.jpeg"
   image_pos: "left" # bottom
   image_is_figure: true
   badge: Evaluation
@@ -94,7 +94,7 @@
 
 
 - project: Water Price Prediction and Policy design
-  image: "/imgs/water.jpg"
+  image: "/imgs/professional/water.jpg"
   image_pos: "left"
   image_is_figure: true
   badge: Application
