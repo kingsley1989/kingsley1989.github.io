@@ -4,7 +4,7 @@ layout: research
 permalink: /research/
 
 jumbo_txt: |
-    My research follows the standard learning paradiam (Learning = Representation + Optimization + Evaluation) to design **Trustworthy ML** tools for a wide range of high stake applications.
+    My research follows the standard learning paradiam (**Representation + Optimization + Evaluation**) to design **Trustworthy ML** tools for a wide range of high stake applications.
     
     If anything is of interest to you, feel free to [contact me](#contact-me)!
     
