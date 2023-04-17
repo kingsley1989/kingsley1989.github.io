@@ -54,30 +54,32 @@
     the sub-dominant ultrametric of the dissimilarity. 
 
 
-- project: Ultrametricity and Hierarchical Clustering
-  image: "/imgs/ultrahierchy.jpg"
-  image_pos: "right"
-  description: |
-    Hierarchical clustering is a popular clustering algorithm since it can 
-    give the users a hierarchical relation between different observations 
-    and let users choose how many clusters the current dataset should have. 
-    Such algorithms, especially the linkage based clustering algorithms, 
-    are widely used in many domains such as biology, manufacturing, and 
-    psychology. However, the time complexity is the main drawback of 
-    hierarchical clustering algorithms. This work is a practical development of the techniques used in the 
-    above project. Currently, we proved that a min-max ultrametric matrix 
-    operation on an arbitrary distance matrix could finally converge into 
-    an ultrametric matrix. We also proved that such a matrix is identical 
-    to the cophenetic distance matrix from the single-linkage hierarchical 
-    clustering algorithm. The nature of matrix-like operation intrigues us 
-    to utilize GPU to accelerate the process of calculating hierarchical 
-    clustering. Moreover, such a GPU-enhanced algorithm could also assist 
-    in the speed of clusterability computing.
+# - project: Ultrametricity and Hierarchical Clustering
+#   image: "/imgs/ultrahierchy.jpg"
+#   image_pos: "right"
+#   badge: MMCTSE 2019
+#   description: |
+#     Hierarchical clustering is a popular clustering algorithm since it can 
+#     give the users a hierarchical relation between different observations 
+#     and let users choose how many clusters the current dataset should have. 
+#     Such algorithms, especially the linkage based clustering algorithms, 
+#     are widely used in many domains such as biology, manufacturing, and 
+#     psychology. However, the time complexity is the main drawback of 
+#     hierarchical clustering algorithms. This work is a practical development of the techniques used in the 
+#     above project. Currently, we proved that a min-max ultrametric matrix 
+#     operation on an arbitrary distance matrix could finally converge into 
+#     an ultrametric matrix. We also proved that such a matrix is identical 
+#     to the cophenetic distance matrix from the single-linkage hierarchical 
+#     clustering algorithm. The nature of matrix-like operation intrigues us 
+#     to utilize GPU to accelerate the process of calculating hierarchical 
+#     clustering. Moreover, such a GPU-enhanced algorithm could also assist 
+#     in the speed of clusterability computing.
     
 
 - project: Unsupersived Model Selection on Dataset with Imbalanced clusters
   image: "/imgs/betaFuncBehv.jpeg"
-  image_pos: "left" # bottom
+  image_pos: "right" # bottom
+  badge: SYNASC 2018
   description: |
     Model selection remains a challenge in the machine learning field. In 
     clustering, the problem will become the selection of the optimal k 
