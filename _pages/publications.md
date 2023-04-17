@@ -8,4 +8,6 @@ jumbo_txt: |
     
 overview: |
   My most updated publications could be found on my [Google Scholar page](https://scholar.google.com/citations?user=u2rFTvYAAAAJ&hl=en).
+
+  [ <sub><sup>*(*) denotes equal contribution*</sup></sub> ] 
 ---

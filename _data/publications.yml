@@ -36,6 +36,37 @@ publications:
     venue: preprint
     type: 2022
     badges: "Under review for Management Science"
+    github_repository_link: https://github.com/YankaiGroup/global_kcenter_extended
+
+  - citation: |
+      Kaixun Hua, Jiayang Ren, Yankai Cao (2022). 
+      [A Scalable Deterministic Global Optimization Algorithm for Training Optimal Decision Tree.](https://proceedings.neurips.cc/paper_files/paper/2022/hash/37771cc0be272368102a37f202bb88d8-Abstract-Conference.html)
+      Advances in Neural Information Processing Systems, 35, 8347-8359.
+    year: 2022
+    venue: conference
+    type: 2022
+    badges: "NeurIPS 2022"
+    github_repository_link: https://github.com/YankaiGroup/optimal_decision_tree
+
+  - citation: |
+      Jiayang Ren*, Kaixun Hua*, Yankai Cao (2022). 
+      [Global Optimal K-Medoids Clustering of One Million Samples.](https://proceedings.neurips.cc/paper_files/paper/2022/hash/06abed94583030dd50abe6767bd643b1-Abstract-Conference.html)
+      Advances in Neural Information Processing Systems, 35, 982-994.
+    year: 2022
+    venue: conference
+    type: 2022
+    badges: "NeurIPS 2022"
+    github_repository_link: https://github.com/YankaiGroup/global_kmedoids_clustering
+
+  - citation: |
+      Mingfei Shi*, Kaixun Hua*, Jiayang Ren, Yankai Cao (2022).
+      [A Scalable deterministic global optimization algorithm for clustering problems.](http://proceedings.mlr.press/v139/hua21a.html) 
+      In International Conference on Machine Learning (pp. 4391-4401). PMLR.
+    year: 2022
+    venue: conference
+    type: 2022
+    badges: "ICML 2022"
+    github_repository_link: https://github.com/YankaiGroup/global_kcenter
 
   - citation: |
       Kaixun Hua, Mingfei Shi, Yankai Cao (2021).
@@ -54,7 +85,7 @@ publications:
     year: 2019
     venue: conference
     type: 2019
-    #github_repository_link: https://github.com/alife-data-standards/alife-data-standards
+    github_repository_link: https://github.com/kingsley1989/Parallel-Ultrametric
     #presentation_link: https://docs.google.com/presentation/d/19fQMsfnYh154G5ZdcJfsjcap6MKjG57p-VncMsjwbQY/edit?usp=sharing
     pdf: /pubs/ultraclst.pdf
     # bibtex_id: Simovici_2019
