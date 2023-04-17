@@ -39,7 +39,7 @@
             {{ pub.citation | markdownify | remove: '<p>' | remove: '</p>' | replace: "Kaixun Hua", "<b>Kaixun Hua</b>" }}
             <br/>
             {% for badge in pub.badges %}
-              <span class="badge badge-#00369f"> {{ badge }} </span>
+              <span class="badge badge-primary"> {{ badge }} </span>
             {% endfor %}
             {% if pub.pdf %} <a href="{{ pub.pdf | relative_url }}"> {{ site.data.icons.pdf_icon }}</a> {% endif %}
             {% if pub.bibtex %}
