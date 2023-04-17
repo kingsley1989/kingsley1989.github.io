@@ -39,7 +39,7 @@ layout: default
               <div class="row no-gutters">
                   <div class="col-4 mb-1 ml-1 mt-1">
                     {% if research.image_is_figure %}
-                      <div class="badge-sqr">{{ research.badge }}</div>
+                      <div class="badge badge-sqr">{{ research.badge }}</div>
                       <figure class="figure">
                         <img src="{{ research.image | relative_url }}" class="img-fluid figure-img" alt="" width="100%">
                         <figcaption class="figure-caption ml-2 mr-2">{{research.figure_caption | markdownify | remove: '<p>' | remove: '</p>' }}</figcaption>
@@ -66,7 +66,7 @@ layout: default
                 </div>
                 <div class="col-4 mb-1 mr-1 mt-1">
                   {% if research.image_is_figure %}
-                    <div class="badge-pill">{{ research.badge }}</div>
+                    <div class="badge badge-pill">{{ research.badge }}</div>
                     <figure class="figure">
                       <img src="{{ research.image | relative_url }}" class="img-fluid figure-img" alt="">
                       <figcaption class="figure-caption ml-2 mr-2">{{research.figure_caption | markdownify | remove: '<p>' | remove: '</p>' }}</figcaption>
