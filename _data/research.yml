@@ -44,9 +44,7 @@
     into well-differentiated groups containing similar objects. We have to 
     look for a proper way to measure the closeness between the original 
     distance space and its corresponding benchmark space that is "most" 
-    clusterable.
-    
-    In this project, we approach data clusterability from an ultrametric-
+    clusterable. In this project, we approach data clusterability from an ultrametric-
     based perspective. A novel approach to determine the ultrametricity of 
     a dataset is proposed via a particular type of matrix product, which 
     allows us to evaluate the dataset's clusterability. Furthermore, we 
@@ -78,7 +76,7 @@
 
 - project: Unsupersived Model Selection on Dataset with Imbalanced clusters
   image: "/imgs/betaFuncBehv.jpeg"
-  image_pos: "right" # bottom
+  image_pos: "left" # bottom
   badge: SYNASC 2018
   description: |
     Model selection remains a challenge in the machine learning field. In 
@@ -96,7 +94,7 @@
 
 - project: Water Price Prediction and Policy design
   image: "/imgs/water.jpg"
-  image_pos: "right"
+  image_pos: "left"
   description: |
     This project cooperates with the Ministry of Water Resources. It tends 
     to take advantage of machine learning techniques to help the users and 

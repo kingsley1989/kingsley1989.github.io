@@ -21,6 +21,12 @@ news: |
 
 about_me_img: "/imgs/bio-kaixun.jpeg"
 about_me_img_caption: |
-  White Rock, BC (Spring 2021)
+  ***Postdoctoral Research Fellow* at University of British Columbia
+  
+  Incoming **Assistant Professor**, 
+  
+  Department of Industrial and Management Systems Engineering, 
+  
+  University of South Florida
 
 ---
