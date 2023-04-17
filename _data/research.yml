@@ -4,6 +4,7 @@
   image: "/imgs/rsbb.png"
   image_pos: "right"
   image_is_figure: true
+  badge: ICML 2021
   figure_caption: 
     Reduced-space branch and bound clustering that can guarantee 
     to converge by only branching on the center of clusters.
