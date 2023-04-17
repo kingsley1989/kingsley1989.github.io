@@ -4,7 +4,7 @@
   image: "/imgs/rsbb.png"
   image_pos: "left"
   image_is_figure: true
-  badge: ICML 2021
+  badge: Optimization
   # figure_caption: 
   #   Reduced-space branch and bound clustering that can guarantee to converge by only branching on the center of clusters.
   description: |
@@ -27,7 +27,7 @@
   image: "/imgs/ultraclst.JPG"
   image_pos: "left"
   image_is_figure: true
-  badge: MMCTSE 2019
+  badge: Representation
   # figure_caption: 
   #   Left is the original distance matrix of two entangled spirals. After 
   #   min-max multiplication, the new ultrametric matrix is generated and 
@@ -77,7 +77,8 @@
 - project: Unsupersived Model Selection on Dataset with Imbalanced clusters
   image: "/imgs/betaFuncBehv.jpeg"
   image_pos: "left" # bottom
-  badge: SYNASC 2018
+  image_is_figure: true
+  badge: Evaluation
   description: |
     Model selection remains a challenge in the machine learning field. In 
     clustering, the problem will become the selection of the optimal k 
@@ -95,6 +96,8 @@
 - project: Water Price Prediction and Policy design
   image: "/imgs/water.jpg"
   image_pos: "left"
+  image_is_figure: true
+  badge: Application
   description: |
     This project cooperates with the Ministry of Water Resources. It tends 
     to take advantage of machine learning techniques to help the users and 
