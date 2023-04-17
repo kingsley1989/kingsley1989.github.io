@@ -55,8 +55,9 @@ layout: default
             {% when "left" %} <!-- When the image should be on the left -->
               <div class="row no-gutters">
                   <div class="col-4 mb-1 ml-1 mt-1">
-                      <div class="badge">{{ research.badge }}</div>
                     {% if research.image_is_figure %}
+                      <span class="badge badge-primary">Primary</span>
+                      <div class="badge badge-primary">{{ research.badge }}</div>
                       <figure class="figure">
                         <img src="{{ research.image | relative_url }}" class="img-fluid figure-img" alt="">
                         <figcaption class="figure-caption ml-2 mr-2">{{research.figure_caption | markdownify | remove: '<p>' | remove: '</p>' }}</figcaption>
