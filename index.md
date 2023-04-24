@@ -11,7 +11,7 @@ about_me: |
 
 
 news: |
-  - **I am currently recuriting 1-2 strong self-motivated students to join my team as PhD students. The main research will focus on scalable training algorithms for the optimal decision tree and clustering problems. If you are interested, feel free to send me your CV.** 
+  - 🌟**I am currently recuriting 1-2 strong self-motivated students to join my team as PhD students. The main research will focus on scalable training algorithms for the optimal decision tree and clustering problems. *If you are interested, feel free to send me your CV.*** 
   - *2023.04*: I will be joining Department of Industrial and Management Systems Engineering (IMSE) at University of South Florida as an Assistant Professor in Fall 2023.
   - *2022.12*: 🎉🎉Two papers are accepted by NeurIPS 2022!
   - *2022.07*: One paper is accepted by ICML 2022!
