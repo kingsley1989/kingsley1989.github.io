@@ -3,7 +3,7 @@ title: About
 layout: about
 
 about_me: |
-  I am an Assistant Professor at University of South Florida, Department of Industrial and Management Systems Engineering.
+  I am an Assistant Professor at the [University of South Florida] (https://www.usf.edu/), [Department of Industrial and Management Systems Engineering](https://www.usf.edu/engineering/imse/).
   
   My research focuses on the use of **clusterability and deterministic global optimization** tools to address challenges when building **scalable trustworthy machine learning systems**. In collaboration with industrial and experimental research groups, I am using my algorithms in a wide range of applications, including neural network modularity, federated learning, biomass and biorefinery processes, neural decoding of the brain, and business decision-making. I have developed several open-source software products (with shared or distributed memory) for the community.
 
